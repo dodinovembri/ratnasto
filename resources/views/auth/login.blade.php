@@ -38,8 +38,8 @@
                             </a>
                         </div>
                         <div class="p-2">
-                            <form class="form-horizontal" thod="POST" action="{{ route('login') }}">
-
+                            <form class="form-horizontal" method="POST" action="{{ route('login') }}">
+                                @csrf
                                 <div class="mb-3">
                                     <label for="username" class="form-label">Username</label>
                                     <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>

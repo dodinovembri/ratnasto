@@ -246,9 +246,6 @@
                                         <li><a href="element-icons.html">Icons</a></li>
                                     </ul>
                                 </li>
-                                <li>
-                                    <a href="#">Buy Donald!</a>
-                                </li>
                             </ul>
                         </nav>
                         <span class="divider"></span>
@@ -1956,7 +1953,6 @@
                         <li><a href="element-icons.html">Icons</a></li>
                     </ul>
                 </li>
-                <li><a href="#">Buy Donald!</a></li>
             </ul>
             <!-- End of MobileMenu -->
             <!-- <ul class="mobile-menu mmenu-anim">

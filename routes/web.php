@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Frontend\HomeController;
+use App\Http\Controllers\Backend\DashboardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,6 +17,7 @@ use App\Http\Controllers\Frontend\HomeController;
 
 Auth::routes();
 Route::get('/', [HomeController::class, 'index']);
+Route::get('/home', [DashboardController::class, 'index']);
 
 Route::name('frontend.')->group(function () {
 	Route::name('home.')->group(function () {
