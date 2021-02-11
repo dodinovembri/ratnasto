@@ -1,40 +1,41 @@
 <!doctype html>
 <html lang="en">
-<head>
+    <head>
         
         <meta charset="utf-8" />
         <title>Administrator</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta content="Administrator" name="description" />
-        <!-- App favicon -->
-        <link rel="shortcut icon" href="{{ asset('backend/images/favicon.ico') }}">
+        <link rel="shortcut icon" type="image/x-icon" href="../assets/img/favicon.png">
 
-        <!-- Bootstrap Css -->
-        <link href="{{ asset('backend/css/bootstrap.min.css') }}" id="bootstrap-style" rel="stylesheet" type="text/css" />
-        <!-- Icons Css -->
-        <link href="{{ asset('backend/css/icons.min.css') }}" rel="stylesheet" type="text/css" />
-        <!-- App Css-->
-        <link href="{{ asset('backend/css/app.min.css') }}" id="app-style" rel="stylesheet" type="text/css" />
+        <!-- For theme 1 -->
+        <link href="{{ asset('backend/theme1/lib/@fortawesome/fontawesome-free/css/all.min.css') }}" rel="stylesheet">
+        <link href="{{ asset('backend/theme1/lib/ionicons/css/ionicons.min.css') }}" rel="stylesheet">
+        <link href="{{ asset('backend/theme1/lib/jqvmap/jqvmap.min.css') }}" rel="stylesheet">
+        <link rel="stylesheet" href="{{ asset('backend/theme1/assets/css/cassie.css') }}">
 
     </head>
+    <body>
+        
+        @yield('content')
 
-    <body data-sidebar="dark">
-            @yield('content')
+    <!-- For theme 1 -->
+    <script src="{{ asset('backend/theme1/lib/jquery/jquery.min.js') }}"></script>
+    <script src="{{ asset('backend/theme1/lib/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ asset('backend/theme1/lib/feather-icons/feather.min.js') }}"></script>
+    <script src="{{ asset('backend/theme1/lib/perfect-scrollbar/perfect-scrollbar.min.js') }}"></script>
+    <script src="{{ asset('backend/theme1/lib/js-cookie/js.cookie.js') }}"></script>
+    <script src="{{ asset('backend/theme1/lib/chart.js/Chart.bundle.min.js') }}"></script>
+    <script src="{{ asset('backend/theme1/lib/jquery.flot/jquery.flot.js') }}"></script>
+    <script src="{{ asset('backend/theme1/lib/jquery.flot/jquery.flot.stack.js') }}"></script>
+    <script src="{{ asset('backend/theme1/lib/jquery.flot/jquery.flot.resize.js') }}"></script>
+    <script src="{{ asset('backend/theme1/lib/jquery.flot/jquery.flot.threshold.js') }}"></script>
+    <script src="{{ asset('backend/theme1/lib/jqvmap/jquery.vmap.min.js') }}"></script>
+    <script src="{{ asset('backend/theme1/lib/jqvmap/maps/jquery.vmap.world.js') }}"></script>
+    <script src="{{ asset('backend/theme1/assets/js/cassie.js') }}"></script>
+    <script src="{{ asset('backend/theme1/assets/js/flot.sampledata.js') }}"></script>
+    <script src="{{ asset('backend/theme1/assets/js/vmap.sampledata.js') }}"></script>
+    <script src="{{ asset('backend/theme1/assets/js/dashboard-one.js') }}"></script>
 
-        <!-- JAVASCRIPT -->
-        <script src="{{ asset('backend/libs/jquery/jquery.min.js') }}"></script>
-        <script src="{{ asset('backend/libs/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-        <script src="{{ asset('backend/libs/metismenu/metisMenu.min.js') }}"></script>
-        <script src="{{ asset('backend/libs/simplebar/simplebar.min.js') }}"></script>
-        <script src="{{ asset('backend/libs/node-waves/waves.min.js') }}"></script>
-
-        <!-- apexcharts -->
-        <script src="{{ asset('backend/libs/apexcharts/apexcharts.min.js') }}"></script>
-
-        <!-- dashboard init -->
-        <script src="{{ asset('backend/js/pages/dashboard.init.js') }}"></script>
-
-        <!-- App js -->
-        <script src="{{ asset('backend/js/app.js') }}"></script>
-    </body>
+  </body>
 </html>

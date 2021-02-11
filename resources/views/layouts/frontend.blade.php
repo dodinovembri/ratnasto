@@ -11,7 +11,7 @@
     <meta name="author" content="">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/png" href="{{ asset('frontend/images/icons/favicon.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('frontend/theme1/images/icons/favicon.png') }}">
 
     <script>
         WebFontConfig = {
@@ -27,15 +27,15 @@
 
 
 
-    <link rel="stylesheet" type="text/css" href="{{ asset('frontend/vendor/fontawesome-free/css/all.min.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('frontend/vendor/animate/animate.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('frontend/theme1/vendor/fontawesome-free/css/all.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('frontend/theme1/vendor/animate/animate.min.css') }}">
 
     <!-- Plugins CSS File -->
-    <link rel="stylesheet" type="text/css" href="{{ asset('frontend/vendor/magnific-popup/magnific-popup.min.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('frontend/vendor/owl-carousel/owl.carousel.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('frontend/theme1/vendor/magnific-popup/magnific-popup.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('frontend/theme1/vendor/owl-carousel/owl.carousel.min.css') }}">
 
     <!-- Main CSS File -->
-    <link rel="stylesheet" type="text/css" href="{{ asset('frontend/css/main.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('frontend/theme1/css/main.min.css') }}">
 </head>
 
 <body class="home">
@@ -43,15 +43,15 @@
     @yield('content')
 
     <!-- Plugins JS File -->
-    <script src="{{ asset('frontend/vendor/jquery/jquery.min.js') }}"></script>
-    <script src="{{ asset('frontend/vendor/parallax/parallax.min.js') }}"></script>
-    <script src="{{ asset('frontend/vendor/imagesloaded/imagesloaded.pkgd.min.js') }}"></script>
-    <script src="{{ asset('frontend/vendor/elevatezoom/jquery.elevatezoom.min.js') }}"></script>
-    <script src="{{ asset('frontend/vendor/magnific-popup/jquery.magnific-popup.min.js') }}"></script>
+    <script src="{{ asset('frontend/theme1/vendor/jquery/jquery.min.js') }}"></script>
+    <script src="{{ asset('frontend/theme1/vendor/parallax/parallax.min.js') }}"></script>
+    <script src="{{ asset('frontend/theme1/vendor/imagesloaded/imagesloaded.pkgd.min.js') }}"></script>
+    <script src="{{ asset('frontend/theme1/vendor/elevatezoom/jquery.elevatezoom.min.js') }}"></script>
+    <script src="{{ asset('frontend/theme1/vendor/magnific-popup/jquery.magnific-popup.min.js') }}"></script>
 
-    <script src="{{ asset('frontend/vendor/owl-carousel/owl.carousel.min.js') }}"></script>
+    <script src="{{ asset('frontend/theme1/vendor/owl-carousel/owl.carousel.min.js') }}"></script>
     <!-- Main JS File -->
-    <script src="{{ asset('frontend/js/main.js') }}"></script>
+    <script src="{{ asset('frontend/theme1/js/main.js') }}"></script>
 </body>
 
 </html>

@@ -2,1554 +2,1416 @@
 
 @section('content')
 
-    <!-- <body data-layout="horizontal" data-topbar="dark"> -->
-
-        <!-- Begin page -->
-        <div id="layout-wrapper">
-
-            
-            <header id="page-topbar">
-                <div class="navbar-header">
-                    <div class="d-flex">
-                        <!-- LOGO -->
-                        <div class="navbar-brand-box">
-                            <a href="index.html" class="logo logo-dark">
-                                <span class="logo-sm">
-                                    <img src="assets/images/logo.svg" alt="" height="22">
-                                </span>
-                                <span class="logo-lg">
-                                    <img src="assets/images/logo-dark.png" alt="" height="17">
-                                </span>
-                            </a>
-
-                            <a href="index.html" class="logo logo-light">
-                                <span class="logo-sm">
-                                    <img src="assets/images/logo-light.svg" alt="" height="22">
-                                </span>
-                                <span class="logo-lg">
-                                    <img src="assets/images/logo-light.png" alt="" height="19">
-                                </span>
-                            </a>
-                        </div>
-
-                        <button type="button" class="btn btn-sm px-3 font-size-16 header-item waves-effect" id="vertical-menu-btn">
-                            <i class="fa fa-fw fa-bars"></i>
-                        </button>
-
-                        <!-- App Search-->
-                        <form class="app-search d-none d-lg-block">
-                            <div class="position-relative">
-                                <input type="text" class="form-control" placeholder="Search...">
-                                <span class="bx bx-search-alt"></span>
-                            </div>
-                        </form>
-
-                        <div class="dropdown dropdown-mega d-none d-lg-block ms-2">
-                            <button type="button" class="btn header-item waves-effect" data-bs-toggle="dropdown" aria-haspopup="false" aria-expanded="false">
-                                <span key="t-megamenu">Mega Menu</span>
-                                <i class="mdi mdi-chevron-down"></i> 
-                            </button>
-                            <div class="dropdown-menu dropdown-megamenu">
-                                <div class="row">
-                                    <div class="col-sm-8">
-    
-                                        <div class="row">
-                                            <div class="col-md-4">
-                                                <h5 class="font-size-14 mt-0" key="t-ui-components">UI Components</h5>
-                                                <ul class="list-unstyled megamenu-list">
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-lightbox">Lightbox</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-range-slider">Range Slider</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-sweet-alert">Sweet Alert</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-rating">Rating</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-forms">Forms</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-tables">Tables</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-charts">Charts</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-
-                                            <div class="col-md-4">
-                                                <h5 class="font-size-14 mt-0" key="t-applications">Applications</h5>
-                                                <ul class="list-unstyled megamenu-list">
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-ecommerce">Ecommerce</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-calendar">Calendar</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-email">Email</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-projects">Projects</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-tasks">Tasks</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-contacts">Contacts</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-
-                                            <div class="col-md-4">
-                                                <h5 class="font-size-14 mt-0" key="t-extra-pages">Extra Pages</h5>
-                                                <ul class="list-unstyled megamenu-list">
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-light-sidebar">Light Sidebar</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-compact-sidebar">Compact Sidebar</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-horizontal">Horizontal layout</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-maintenance">Maintenance</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-coming-soon">Coming Soon</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-timeline">Timeline</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-faqs">FAQs</a>
-                                                    </li>
-                            
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <div class="row">
-                                            <div class="col-sm-6">
-                                                <h5 class="font-size-14 mt-0" key="t-ui-components">UI Components</h5>
-                                                <ul class="list-unstyled megamenu-list">
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-lightbox">Lightbox</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-range-slider">Range Slider</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-sweet-alert">Sweet Alert</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-rating">Rating</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-forms">Forms</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-tables">Tables</a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="javascript:void(0);" key="t-charts">Charts</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-
-                                            <div class="col-sm-5">
-                                                <div>
-                                                    <img src="assets/images/megamenu-img.png" alt="" class="img-fluid mx-auto d-block">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="d-flex">
-
-                        <div class="dropdown d-inline-block d-lg-none ms-2">
-                            <button type="button" class="btn header-item noti-icon waves-effect" id="page-header-search-dropdown"
-                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="mdi mdi-magnify"></i>
-                            </button>
-                            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0"
-                                aria-labelledby="page-header-search-dropdown">
-        
-                                <form class="p-3">
-                                    <div class="form-group m-0">
-                                        <div class="input-group">
-                                            <input type="text" class="form-control" placeholder="Search ..." aria-label="Recipient's username">
-                                            <div class="input-group-append">
-                                                <button class="btn btn-primary" type="submit"><i class="mdi mdi-magnify"></i></button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-
-                        <div class="dropdown d-inline-block">
-                            <button type="button" class="btn header-item waves-effect"
-                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <img id="header-lang-img" src="assets/images/flags/us.jpg" alt="Header Language" height="16">
-                            </button>
-                            <div class="dropdown-menu dropdown-menu-end">
-
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="en">
-                                    <img src="assets/images/flags/us.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">English</span>
-                                </a>
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="sp">
-                                    <img src="assets/images/flags/spain.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">Spanish</span>
-                                </a>
-
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="gr">
-                                    <img src="assets/images/flags/germany.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">German</span>
-                                </a>
-
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="it">
-                                    <img src="assets/images/flags/italy.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">Italian</span>
-                                </a>
-
-                                <!-- item-->
-                                <a href="javascript:void(0);" class="dropdown-item notify-item language" data-lang="ru">
-                                    <img src="assets/images/flags/russia.jpg" alt="user-image" class="me-1" height="12"> <span class="align-middle">Russian</span>
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="dropdown d-none d-lg-inline-block ms-1">
-                            <button type="button" class="btn header-item noti-icon waves-effect"
-                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="bx bx-customize"></i>
-                            </button>
-                            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end">
-                                <div class="px-lg-2">
-                                    <div class="row g-0">
-                                        <div class="col">
-                                            <a class="dropdown-icon-item" href="#">
-                                                <img src="assets/images/brands/github.png" alt="Github">
-                                                <span>GitHub</span>
-                                            </a>
-                                        </div>
-                                        <div class="col">
-                                            <a class="dropdown-icon-item" href="#">
-                                                <img src="assets/images/brands/bitbucket.png" alt="bitbucket">
-                                                <span>Bitbucket</span>
-                                            </a>
-                                        </div>
-                                        <div class="col">
-                                            <a class="dropdown-icon-item" href="#">
-                                                <img src="assets/images/brands/dribbble.png" alt="dribbble">
-                                                <span>Dribbble</span>
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                    <div class="row g-0">
-                                        <div class="col">
-                                            <a class="dropdown-icon-item" href="#">
-                                                <img src="assets/images/brands/dropbox.png" alt="dropbox">
-                                                <span>Dropbox</span>
-                                            </a>
-                                        </div>
-                                        <div class="col">
-                                            <a class="dropdown-icon-item" href="#">
-                                                <img src="assets/images/brands/mail_chimp.png" alt="mail_chimp">
-                                                <span>Mail Chimp</span>
-                                            </a>
-                                        </div>
-                                        <div class="col">
-                                            <a class="dropdown-icon-item" href="#">
-                                                <img src="assets/images/brands/slack.png" alt="slack">
-                                                <span>Slack</span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="dropdown d-none d-lg-inline-block ms-1">
-                            <button type="button" class="btn header-item noti-icon waves-effect" data-toggle="fullscreen">
-                                <i class="bx bx-fullscreen"></i>
-                            </button>
-                        </div>
-
-                        <div class="dropdown d-inline-block">
-                            <button type="button" class="btn header-item noti-icon waves-effect" id="page-header-notifications-dropdown"
-                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="bx bx-bell bx-tada"></i>
-                                <span class="badge bg-danger rounded-pill">3</span>
-                            </button>
-                            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-end p-0"
-                                aria-labelledby="page-header-notifications-dropdown">
-                                <div class="p-3">
-                                    <div class="row align-items-center">
-                                        <div class="col">
-                                            <h6 class="m-0" key="t-notifications"> Notifications </h6>
-                                        </div>
-                                        <div class="col-auto">
-                                            <a href="#!" class="small" key="t-view-all"> View All</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div data-simplebar style="max-height: 230px;">
-                                    <a href="#" class="text-reset notification-item">
-                                        <div class="media">
-                                            <div class="avatar-xs me-3">
-                                                <span class="avatar-title bg-primary rounded-circle font-size-16">
-                                                    <i class="bx bx-cart"></i>
-                                                </span>
-                                            </div>
-                                            <div class="media-body">
-                                                <h6 class="mt-0 mb-1" key="t-your-order">Your order is placed</h6>
-                                                <div class="font-size-12 text-muted">
-                                                    <p class="mb-1" key="t-grammer">If several languages coalesce the grammar</p>
-                                                    <p class="mb-0"><i class="mdi mdi-clock-outline"></i> <span key="t-min-ago">3 min ago</span></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <a href="#" class="text-reset notification-item">
-                                        <div class="media">
-                                            <img src="assets/images/users/avatar-3.jpg"
-                                                class="me-3 rounded-circle avatar-xs" alt="user-pic">
-                                            <div class="media-body">
-                                                <h6 class="mt-0 mb-1">James Lemire</h6>
-                                                <div class="font-size-12 text-muted">
-                                                    <p class="mb-1" key="t-simplified">It will seem like simplified English.</p>
-                                                    <p class="mb-0"><i class="mdi mdi-clock-outline"></i> <span key="t-hours-ago">1 hours ago</span></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                    <a href="#" class="text-reset notification-item">
-                                        <div class="media">
-                                            <div class="avatar-xs me-3">
-                                                <span class="avatar-title bg-success rounded-circle font-size-16">
-                                                    <i class="bx bx-badge-check"></i>
-                                                </span>
-                                            </div>
-                                            <div class="media-body">
-                                                <h6 class="mt-0 mb-1" key="t-shipped">Your item is shipped</h6>
-                                                <div class="font-size-12 text-muted">
-                                                    <p class="mb-1" key="t-grammer">If several languages coalesce the grammar</p>
-                                                    <p class="mb-0"><i class="mdi mdi-clock-outline"></i> <span key="t-min-ago">3 min ago</span></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-
-                                    <a href="#" class="text-reset notification-item">
-                                        <div class="media">
-                                            <img src="assets/images/users/avatar-4.jpg"
-                                                class="me-3 rounded-circle avatar-xs" alt="user-pic">
-                                            <div class="media-body">
-                                                <h6 class="mt-0 mb-1">Salena Layfield</h6>
-                                                <div class="font-size-12 text-muted">
-                                                    <p class="mb-1" key="t-occidental">As a skeptical Cambridge friend of mine occidental.</p>
-                                                    <p class="mb-0"><i class="mdi mdi-clock-outline"></i> <span key="t-hours-ago">1 hours ago</span></p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div class="p-2 border-top d-grid">
-                                    <a class="btn btn-sm btn-link font-size-14 text-center" href="javascript:void(0)">
-                                        <i class="mdi mdi-arrow-right-circle me-1"></i> <span key="t-view-more">View More..</span> 
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="dropdown d-inline-block">
-                            <button type="button" class="btn header-item waves-effect" id="page-header-user-dropdown"
-                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <img class="rounded-circle header-profile-user" src="assets/images/users/avatar-1.jpg"
-                                    alt="Header Avatar">
-                                <span class="d-none d-xl-inline-block ms-1" key="t-henry">Henry</span>
-                                <i class="mdi mdi-chevron-down d-none d-xl-inline-block"></i>
-                            </button>
-                            <div class="dropdown-menu dropdown-menu-end">
-                                <!-- item-->
-                                <a class="dropdown-item" href="#"><i class="bx bx-user font-size-16 align-middle me-1"></i> <span key="t-profile">Profile</span></a>
-                                <a class="dropdown-item" href="#"><i class="bx bx-wallet font-size-16 align-middle me-1"></i> <span key="t-my-wallet">My Wallet</span></a>
-                                <a class="dropdown-item d-block" href="#"><span class="badge bg-success float-end">11</span><i class="bx bx-wrench font-size-16 align-middle me-1"></i> <span key="t-settings">Settings</span></a>
-                                <a class="dropdown-item" href="#"><i class="bx bx-lock-open font-size-16 align-middle me-1"></i> <span key="t-lock-screen">Lock screen</span></a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item text-danger" href="#"><i class="bx bx-power-off font-size-16 align-middle me-1 text-danger"></i> <span key="t-logout">Logout</span></a>
-                            </div>
-                        </div>
-
-                        <div class="dropdown d-inline-block">
-                            <button type="button" class="btn header-item noti-icon right-bar-toggle waves-effect">
-                                <i class="bx bx-cog bx-spin"></i>
-                            </button>
-                        </div>
-
-                    </div>
-                </div>
-            </header>
-
-            <!-- ========== Left Sidebar Start ========== -->
-            <div class="vertical-menu">
-
-                <div data-simplebar class="h-100">
-
-                    <!--- Sidemenu -->
-                    <div id="sidebar-menu">
-                        <!-- Left Menu Start -->
-                        <ul class="metismenu list-unstyled" id="side-menu">
-                            <li class="menu-title" key="t-menu">Menu</li>
-
-                            <li>
-                                <a href="javascript: void(0);" class="waves-effect">
-                                    <i class="bx bx-home-circle"></i><span class="badge rounded-pill bg-info float-end">04</span>
-                                    <span key="t-dashboards">Dashboards</span>
-                                </a>
-                                <ul class="sub-menu" aria-expanded="false">
-                                    <li><a href="index.html" key="t-default">Default</a></li>
-                                    <li><a href="dashboard-saas.html" key="t-saas">Saas</a></li>
-                                    <li><a href="dashboard-crypto.html" key="t-crypto">Crypto</a></li>
-                                    <li><a href="dashboard-blog.html" key="t-blog">Blog</a></li>
-                                </ul>
-                            </li>
-
-                            <li>
-                                <a href="javascript: void(0);" class="has-arrow waves-effect">
-                                    <i class="bx bx-layout"></i>
-                                    <span key="t-layouts">Layouts</span>
-                                </a>
-                                <ul class="sub-menu" aria-expanded="true">
-                                    <li>
-                                        <a href="javascript: void(0);" class="has-arrow" key="t-vertical">Vertical</a>
-                                        <ul class="sub-menu" aria-expanded="true">
-                                            <li><a href="layouts-light-sidebar.html" key="t-light-sidebar">Light Sidebar</a></li>
-                                            <li><a href="layouts-compact-sidebar.html" key="t-compact-sidebar">Compact Sidebar</a></li>
-                                            <li><a href="layouts-icon-sidebar.html" key="t-icon-sidebar">Icon Sidebar</a></li>
-                                            <li><a href="layouts-boxed.html" key="t-boxed-width">Boxed Width</a></li>
-                                            <li><a href="layouts-preloader.html" key="t-preloader">Preloader</a></li>
-                                            <li><a href="layouts-colored-sidebar.html" key="t-colored-sidebar">Colored Sidebar</a></li>
-                                            <li><a href="layouts-scrollable.html" key="t-scrollable">Scrollable</a></li>
-                                        </ul>
-                                    </li>
-
-                                    <li>
-                                        <a href="javascript: void(0);" class="has-arrow" key="t-horizontal">Horizontal</a>
-                                        <ul class="sub-menu" aria-expanded="true">
-                                            <li><a href="layouts-horizontal.html" key="t-horizontal">Horizontal</a></li>
-                                            <li><a href="layouts-hori-topbar-light.html" key="t-topbar-light">Topbar light</a></li>
-                                            <li><a href="layouts-hori-boxed-width.html" key="t-boxed-width">Boxed width</a></li>
-                                            <li><a href="layouts-hori-preloader.html" key="t-preloader">Preloader</a></li>
-                                            <li><a href="layouts-hori-colored-header.html" key="t-colored-topbar">Colored Header</a></li>
-                                            <li><a href="layouts-hori-scrollable.html" key="t-scrollable">Scrollable</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-
-                            <li class="menu-title" key="t-apps">Apps</li>
-
-                            <li>
-                                <a href="calendar.html" class="waves-effect">
-                                    <i class="bx bx-calendar"></i>
-                                    <span key="t-calendar">Calendar</span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="chat.html" class="waves-effect">
-                                    <i class="bx bx-chat"></i>
-                                    <span key="t-chat">Chat</span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="apps-filemanager.html" class="waves-effect">
-                                    <i class="bx bx-file"></i>
-                                    <span class="badge rounded-pill bg-success float-end" key="t-new">New</span>
-                                    <span key="t-file-manager">File Manager</span>
-                                </a>
-                            </li>
-
-                            <li>
-                                <a href="javascript: void(0);" class="has-arrow waves-effect">
-                                    <i class="bx bx-store"></i>
-                                    <span key="t-ecommerce">Ecommerce</span>
-                                </a>
-                                <ul class="sub-menu" aria-expanded="false">
-                                    <li><a href="ecommerce-products.html" key="t-products">Products</a></li>
-                                    <li><a href="ecommerce-product-detail.html" key="t-product-detail">Product Detail</a></li>
-                                    <li><a href="ecommerce-orders.html" key="t-orders">Orders</a></li>
-                                    <li><a href="ecommerce-customers.html" key="t-customers">Customers</a></li>
-                                    <li><a href="ecommerce-cart.html" key="t-cart">Cart</a></li>
-                                    <li><a href="ecommerce-checkout.html" key="t-checkout">Checkout</a></li>
-                                    <li><a href="ecommerce-shops.html" key="t-shops">Shops</a></li>
-                                    <li><a href="ecommerce-add-product.html" key="t-add-product">Add Product</a></li>
-                                </ul>
-                            </li>
-
-                            <li>
-                                <a href="javascript: void(0);" class="has-arrow waves-effect">
-                                    <i class="bx bx-bitcoin"></i>
-                                    <span key="t-crypto">Crypto</span>
-                                </a>
-                                <ul class="sub-menu" aria-expanded="false">
-                                    <li><a href="crypto-wallet.html" key="t-wallet">Wallet</a></li>
-                                    <li><a href="crypto-buy-sell.html" key="t-buy">Buy/Sell</a></li>
-                                    <li><a href="crypto-exchange.html" key="t-exchange">Exchange</a></li>
-                                    <li><a href="crypto-lending.html" key="t-lending">Lending</a></li>
-                                    <li><a href="crypto-orders.html" key="t-orders">Orders</a></li>
-                                    <li><a href="crypto-kyc-application.html" key="t-kyc">KYC Application</a></li>
-                                    <li><a href="crypto-ico-landing.html" key="t-ico">ICO Landing</a></li>
-                                </ul>
-                            </li>
-
-                            <li>
-                                <a href="javascript: void(0);" class="has-arrow waves-effect">
-                                    <i class="bx bx-envelope"></i>
-                                    <span key="t-email">Email</span>
-                                </a>
-                                <ul class="sub-menu" aria-expanded="false">
-                                    <li><a href="email-inbox.html" key="t-inbox">Inbox</a></li>
-                                    <li><a href="email-read.html" key="t-read-email">Read Email</a></li>
-                                    <li>
-                                        <a href="javascript: void(0);">
-                                            <span class="badge rounded-pill badge-soft-success float-end" key="t-new">New</span>
-                                            <span key="t-email-templates">Templates</span>
-                                        </a>
-                                        <ul class="sub-menu" aria-expanded="true">
-                                            <li><a href="email-template-basic.html" key="t-basic-action">Basic Action</a></li>
-                                            <li><a href="email-template-alert.html" key="t-alert-email">Alert Email</a></li>
-                                            <li><a href="email-template-billing.html" key="t-bill-email">Billing Email</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-
-                            <li>
-                                <a href="javascript: void(0);" class="has-arrow waves-effect">
-                                    <i class="bx bx-receipt"></i>
-                                    <span key="t-invoices">Invoices</span>
-                                </a>
-                                <ul class="sub-menu" aria-expanded="false">
-                                    <li><a href="invoices-list.html" key="t-invoice-list">Invoice List</a></li>
-                                    <li><a href="invoices-detail.html" key="t-invoice-detail">Invoice Detail</a></li>
-                                </ul>
-                            </li>
-
-                            <li>
-                                <a href="javascript: void(0);" class="has-arrow waves-effect">
-                                    <i class="bx bx-briefcase-alt-2"></i>
-                                    <span key="t-projects">Projects</span>
-                                </a>
-                                <ul class="sub-menu" aria-expanded="false">
-                                    <li><a href="projects-grid.html" key="t-p-grid">Projects Grid</a></li>
-                                    <li><a href="projects-list.html" key="t-p-list">Projects List</a></li>
-                                    <li><a href="projects-overview.html" key="t-p-overview">Project Overview</a></li>
-                                    <li><a href="projects-create.html" key="t-create-new">Create New</a></li>
-                                </ul>
-                            </li>
-
-                            <li>
-                                <a href="javascript: void(0);" class="has-arrow waves-effect">
-                                    <i class="bx bx-task"></i>
-                                    <span key="t-tasks">Tasks</span>
-                                </a>
-                                <ul class="sub-menu" aria-expanded="false">
-                                    <li><a href="tasks-list.html" key="t-task-list">Task List</a></li>
-                                    <li><a href="tasks-kanban.html" key="t-kanban-board">Kanban Board</a></li>
-                                    <li><a href="tasks-create.html" key="t-create-task">Create Task</a></li>
-                                </ul>
-                            </li>
-
-                            <li>
-                                <a href="javascript: void(0);" class="has-arrow waves-effect">
-                                    <i class="bx bxs-user-detail"></i>
-                                    <span key="t-contacts">Contacts</span>
-                                </a>
-                                <ul class="sub-menu" aria-expanded="false">
-                                    <li><a href="contacts-grid.html" key="t-user-grid">User Grid</a></li>
-                                    <li><a href="contacts-list.html" key="t-user-list">User List</a></li>
-                                    <li><a href="contacts-profile.html" key="t-profile">Profile</a></li>
-                                </ul>
-                            </li>
-
-                            <li>
-                                <a href="javascript: void(0);" class="waves-effect">
-                                    <span class="badge rounded-pill bg-success float-end" key="t-new">New</span>
-                                    <i class="bx bx-detail"></i>
-                                    <span key="t-blog">Blog</span>
-                                </a>
-                                <ul class="sub-menu" aria-expanded="false">
-                                    <li><a href="blog-list.html" key="t-blog-list">Blog List</a></li>
-                                    <li><a href="blog-grid.html" key="t-blog-grid">Blog Grid</a></li>
-                                    <li><a href="blog-details.html" key="t-blog-details">Blog Details</a></li>
-                                </ul>
-                            </li>
-
-                            <li class="menu-title" key="t-pages">Pages</li>
-
-                            <li>
-                                <a href="javascript: void(0);" class="waves-effect">
-                                    <span class="badge rounded-pill bg-success float-end" key="t-new">New</span>
-                                    <i class="bx bx-user-circle"></i>
-                                    <span key="t-authentication">Authentication</span>
-                                </a>
-                                <ul class="sub-menu" aria-expanded="false">
-                                    <li><a href="auth-login.html" key="t-login">Login</a></li>
-                                    <li><a href="auth-login-2.html" key="t-login-2">Login 2</a></li>
-                                    <li><a href="auth-register.html" key="t-register">Register</a></li>
-                                    <li><a href="auth-register-2.html" key="t-register-2">Register 2</a></li>
-                                    <li><a href="auth-recoverpw.html" key="t-recover-password">Recover Password</a></li>
-                                    <li><a href="auth-recoverpw-2.html" key="t-recover-password-2">Recover Password 2</a></li>
-                                    <li><a href="auth-lock-screen.html" key="t-lock-screen">Lock Screen</a></li>
-                                    <li><a href="auth-lock-screen-2.html" key="t-lock-screen-2">Lock Screen 2</a></li>
-                                    <li><a href="auth-confirm-mail.html" key="t-confirm-mail">Confirm Mail</a></li>
-                                    <li><a href="auth-confirm-mail-2.html" key="t-confirm-mail-2">Confirm Mail 2</a></li>
-                                    <li><a href="auth-email-verification.html" key="t-email-verification">Email verification</a></li>
-                                    <li><a href="auth-email-verification-2.html" key="t-email-verification-2">Email verification 2</a></li>
-                                    <li><a href="auth-two-step-verification.html" key="t-two-step-verification">Two step verification</a></li>
-                                    <li><a href="auth-two-step-verification-2.html" key="t-two-step-verification-2">Two step verification 2</a></li>
-                                </ul>
-                            </li>
-
-                            <li>
-                                <a href="javascript: void(0);" class="has-arrow waves-effect">
-                                    <i class="bx bx-file"></i>
-                                    <span key="t-utility">Utility</span>
-                                </a>
-                                <ul class="sub-menu" aria-expanded="false">
-                                    <li><a href="pages-starter.html" key="t-starter-page">Starter Page</a></li>
-                                    <li><a href="pages-maintenance.html" key="t-maintenance">Maintenance</a></li>
-                                    <li><a href="pages-comingsoon.html" key="t-coming-soon">Coming Soon</a></li>
-                                    <li><a href="pages-timeline.html" key="t-timeline">Timeline</a></li>
-                                    <li><a href="pages-faqs.html" key="t-faqs">FAQs</a></li>
-                                    <li><a href="pages-pricing.html" key="t-pricing">Pricing</a></li>
-                                    <li><a href="pages-404.html" key="t-error-404">Error 404</a></li>
-                                    <li><a href="pages-500.html" key="t-error-500">Error 500</a></li>
-                                </ul>
-                            </li>
-
-                            <li class="menu-title" key="t-components">Components</li>
-
-                            <li>
-                                <a href="javascript: void(0);" class="has-arrow waves-effect">
-                                    <i class="bx bx-tone"></i>
-                                    <span key="t-ui-elements">UI Elements</span>
-                                </a>
-                                <ul class="sub-menu" aria-expanded="false">
-                                    <li><a href="ui-alerts.html" key="t-alerts">Alerts</a></li>
-                                    <li><a href="ui-buttons.html" key="t-buttons">Buttons</a></li>
-                                    <li><a href="ui-cards.html" key="t-cards">Cards</a></li>
-                                    <li><a href="ui-carousel.html" key="t-carousel">Carousel</a></li>
-                                    <li><a href="ui-dropdowns.html" key="t-dropdowns">Dropdowns</a></li>
-                                    <li><a href="ui-grid.html" key="t-grid">Grid</a></li>
-                                    <li><a href="ui-images.html" key="t-images">Images</a></li>
-                                    <li><a href="ui-lightbox.html" key="t-lightbox">Lightbox</a></li>
-                                    <li><a href="ui-modals.html" key="t-modals">Modals</a></li>
-                                    <li><a href="ui-rangeslider.html" key="t-range-slider">Range Slider</a></li>
-                                    <li><a href="ui-session-timeout.html" key="t-session-timeout">Session Timeout</a></li>
-                                    <li><a href="ui-progressbars.html" key="t-progress-bars">Progress Bars</a></li>
-                                    <li><a href="ui-sweet-alert.html" key="t-sweet-alert">Sweet-Alert</a></li>
-                                    <li><a href="ui-tabs-accordions.html" key="t-tabs-accordions">Tabs & Accordions</a></li>
-                                    <li><a href="ui-typography.html" key="t-typography">Typography</a></li>
-                                    <li><a href="ui-video.html" key="t-video">Video</a></li>
-                                    <li><a href="ui-general.html" key="t-general">General</a></li>
-                                    <li><a href="ui-colors.html" key="t-colors">Colors</a></li>
-                                    <li><a href="ui-rating.html" key="t-rating">Rating</a></li>
-                                    <li><a href="ui-notifications.html" key="t-notifications">Notifications</a></li>
-                                </ul>
-                            </li>
-
-                            <li>
-                                <a href="javascript: void(0);" class="waves-effect">
-                                    <i class="bx bxs-eraser"></i>
-                                    <span class="badge rounded-pill bg-danger float-end">10</span>
-                                    <span key="t-forms">Forms</span>
-                                </a>
-                                <ul class="sub-menu" aria-expanded="false">
-                                    <li><a href="form-elements.html" key="t-form-elements">Form Elements</a></li>
-                                    <li><a href="form-layouts.html" key="t-form-layouts">Form Layouts</a></li>
-                                    <li><a href="form-validation.html" key="t-form-validation">Form Validation</a></li>
-                                    <li><a href="form-advanced.html" key="t-form-advanced">Form Advanced</a></li>
-                                    <li><a href="form-editors.html" key="t-form-editors">Form Editors</a></li>
-                                    <li><a href="form-uploads.html" key="t-form-upload">Form File Upload</a></li>
-                                    <li><a href="form-xeditable.html" key="t-form-xeditable">Form Xeditable</a></li>
-                                    <li><a href="form-repeater.html" key="t-form-repeater">Form Repeater</a></li>
-                                    <li><a href="form-wizard.html" key="t-form-wizard">Form Wizard</a></li>
-                                    <li><a href="form-mask.html" key="t-form-mask">Form Mask</a></li>
-                                </ul>
-                            </li>
-
-                            <li>
-                                <a href="javascript: void(0);" class="has-arrow waves-effect">
-                                    <i class="bx bx-list-ul"></i>
-                                    <span key="t-tables">Tables</span>
-                                </a>
-                                <ul class="sub-menu" aria-expanded="false">
-                                    <li><a href="tables-basic.html" key="t-basic-tables">Basic Tables</a></li>
-                                    <li><a href="tables-datatable.html" key="t-data-tables">Data Tables</a></li>
-                                    <li><a href="tables-responsive.html" key="t-responsive-table">Responsive Table</a></li>
-                                    <li><a href="tables-editable.html" key="t-editable-table">Editable Table</a></li>
-                                </ul>
-                            </li>
-
-                            <li>
-                                <a href="javascript: void(0);" class="has-arrow waves-effect">
-                                    <i class="bx bxs-bar-chart-alt-2"></i>
-                                    <span key="t-charts">Charts</span>
-                                </a>
-                                <ul class="sub-menu" aria-expanded="false">
-                                    <li><a href="charts-apex.html" key="t-apex-charts">Apex Charts</a></li>
-                                    <li><a href="charts-echart.html" key="t-e-charts">E Charts</a></li>
-                                    <li><a href="charts-chartjs.html" key="t-chartjs-charts">Chartjs Charts</a></li>
-                                    <li><a href="charts-flot.html" key="t-flot-charts">Flot Charts</a></li>
-                                    <li><a href="charts-tui.html" key="t-ui-charts">Toast UI Charts</a></li>
-                                    <li><a href="charts-knob.html" key="t-knob-charts">Jquery Knob Charts</a></li>
-                                    <li><a href="charts-sparkline.html" key="t-sparkline-charts">Sparkline Charts</a></li>
-                                </ul>
-                            </li>
-
-                            <li>
-                                <a href="javascript: void(0);" class="has-arrow waves-effect">
-                                    <i class="bx bx-aperture"></i>
-                                    <span key="t-icons">Icons</span>
-                                </a>
-                                <ul class="sub-menu" aria-expanded="false">
-                                    <li><a href="icons-boxicons.html" key="t-boxicons">Boxicons</a></li>
-                                    <li><a href="icons-materialdesign.html" key="t-material-design">Material Design</a></li>
-                                    <li><a href="icons-dripicons.html" key="t-dripicons">Dripicons</a></li>
-                                    <li><a href="icons-fontawesome.html" key="t-font-awesome">Font awesome</a></li>
-                                </ul>
-                            </li>
-
-                            <li>
-                                <a href="javascript: void(0);" class="has-arrow waves-effect">
-                                    <i class="bx bx-map"></i>
-                                    <span key="t-maps">Maps</span>
-                                </a>
-                                <ul class="sub-menu" aria-expanded="false">
-                                    <li><a href="maps-google.html" key="t-g-maps">Google Maps</a></li>
-                                    <li><a href="maps-vector.html" key="t-v-maps">Vector Maps</a></li>
-                                    <li><a href="maps-leaflet.html" key="t-l-maps">Leaflet Maps</a></li>
-                                </ul>
-                            </li>
-
-                            <li>
-                                <a href="javascript: void(0);" class="has-arrow waves-effect">
-                                    <i class="bx bx-share-alt"></i>
-                                    <span key="t-multi-level">Multi Level</span>
-                                </a>
-                                <ul class="sub-menu" aria-expanded="true">
-                                    <li><a href="javascript: void(0);" key="t-level-1-1">Level 1.1</a></li>
-                                    <li>
-                                        <a href="javascript: void(0);" class="has-arrow" key="t-level-1-2">Level 1.2</a>
-                                        <ul class="sub-menu" aria-expanded="true">
-                                            <li><a href="javascript: void(0);" key="t-level-2-1">Level 2.1</a></li>
-                                            <li><a href="javascript: void(0);" key="t-level-2-2">Level 2.2</a></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </li>
-
-                        </ul>
-                    </div>
-                    <!-- Sidebar -->
-                </div>
-            </div>
-            <!-- Left Sidebar End -->
-
-            
-
-            <!-- ============================================================== -->
-            <!-- Start right Content here -->
-            <!-- ============================================================== -->
-            <div class="main-content">
-
-                <div class="page-content">
-                    <div class="container-fluid">
-
-                        <!-- start page title -->
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="page-title-box d-sm-flex align-items-center justify-content-between">
-                                    <h4 class="mb-sm-0 font-size-18">Dashboard</h4>
-
-                                    <div class="page-title-right">
-                                        <ol class="breadcrumb m-0">
-                                            <li class="breadcrumb-item"><a href="javascript: void(0);">Dashboards</a></li>
-                                            <li class="breadcrumb-item active">Dashboard</li>
-                                        </ol>
-                                    </div>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end page title -->
-
-                        <div class="row">
-                            <div class="col-xl-4">
-                                <div class="card overflow-hidden">
-                                    <div class="bg-primary bg-soft">
-                                        <div class="row">
-                                            <div class="col-7">
-                                                <div class="text-primary p-3">
-                                                    <h5 class="text-primary">Welcome Back !</h5>
-                                                    <p>Skote Dashboard</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-5 align-self-end">
-                                                <img src="assets/images/profile-img.png" alt="" class="img-fluid">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="card-body pt-0">
-                                        <div class="row">
-                                            <div class="col-sm-4">
-                                                <div class="avatar-md profile-user-wid mb-4">
-                                                    <img src="assets/images/users/avatar-1.jpg" alt="" class="img-thumbnail rounded-circle">
-                                                </div>
-                                                <h5 class="font-size-15 text-truncate">Henry Price</h5>
-                                                <p class="text-muted mb-0 text-truncate">UI/UX Designer</p>
-                                            </div>
-
-                                            <div class="col-sm-8">
-                                                <div class="pt-4">
-
-                                                    <div class="row">
-                                                        <div class="col-6">
-                                                            <h5 class="font-size-15">125</h5>
-                                                            <p class="text-muted mb-0">Projects</p>
-                                                        </div>
-                                                        <div class="col-6">
-                                                            <h5 class="font-size-15">$1245</h5>
-                                                            <p class="text-muted mb-0">Revenue</p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="mt-4">
-                                                        <a href="#" class="btn btn-primary waves-effect waves-light btn-sm">View Profile <i class="mdi mdi-arrow-right ms-1"></i></a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h4 class="card-title mb-4">Monthly Earning</h4>
-                                        <div class="row">
-                                            <div class="col-sm-6">
-                                                <p class="text-muted">This month</p>
-                                                <h3>$34,252</h3>
-                                                <p class="text-muted"><span class="text-success me-2"> 12% <i class="mdi mdi-arrow-up"></i> </span> From previous period</p>
-
-                                                <div class="mt-4">
-                                                    <a href="#" class="btn btn-primary waves-effect waves-light btn-sm">View More <i class="mdi mdi-arrow-right ms-1"></i></a>
-                                                </div>
-                                            </div>
-                                            <div class="col-sm-6">
-                                                <div class="mt-4 mt-sm-0">
-                                                    <div id="radialBar-chart" class="apex-charts"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <p class="text-muted mb-0">We craft digital, graphic and dimensional thinking.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-8">
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <div class="card mini-stats-wid">
-                                            <div class="card-body">
-                                                <div class="media">
-                                                    <div class="media-body">
-                                                        <p class="text-muted fw-medium">Orders</p>
-                                                        <h4 class="mb-0">1,235</h4>
-                                                    </div>
-
-                                                    <div class="mini-stat-icon avatar-sm rounded-circle bg-primary align-self-center">
-                                                        <span class="avatar-title">
-                                                            <i class="bx bx-copy-alt font-size-24"></i>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="card mini-stats-wid">
-                                            <div class="card-body">
-                                                <div class="media">
-                                                    <div class="media-body">
-                                                        <p class="text-muted fw-medium">Revenue</p>
-                                                        <h4 class="mb-0">$35, 723</h4>
-                                                    </div>
-
-                                                    <div class="avatar-sm rounded-circle bg-primary align-self-center mini-stat-icon">
-                                                        <span class="avatar-title rounded-circle bg-primary">
-                                                            <i class="bx bx-archive-in font-size-24"></i>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4">
-                                        <div class="card mini-stats-wid">
-                                            <div class="card-body">
-                                                <div class="media">
-                                                    <div class="media-body">
-                                                        <p class="text-muted fw-medium">Average Price</p>
-                                                        <h4 class="mb-0">$16.2</h4>
-                                                    </div>
-
-                                                    <div class="avatar-sm rounded-circle bg-primary align-self-center mini-stat-icon">
-                                                        <span class="avatar-title rounded-circle bg-primary">
-                                                            <i class="bx bx-purchase-tag-alt font-size-24"></i>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- end row -->
-
-                                <div class="card">
-                                    <div class="card-body">
-                                        <div class="d-sm-flex flex-wrap">
-                                            <h4 class="card-title mb-4">Email Sent</h4>
-                                            <div class="ms-auto">
-                                                <ul class="nav nav-pills">
-                                                    <li class="nav-item">
-                                                        <a class="nav-link" href="#">Week</a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link" href="#">Month</a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a class="nav-link active" href="#">Year</a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        
-                                        <div id="stacked-column-chart" class="apex-charts" dir="ltr"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end row -->
-
-                        <div class="row">
-                            <div class="col-xl-4">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h4 class="card-title mb-4">Social Source</h4>
-                                        <div class="text-center">
-                                            <div class="avatar-sm mx-auto mb-4">
-                                                <span class="avatar-title rounded-circle bg-primary bg-soft font-size-24">
-                                                        <i class="mdi mdi-facebook text-primary"></i>
-                                                    </span>
-                                            </div>
-                                            <p class="font-16 text-muted mb-2"></p>
-                                            <h5><a href="#" class="text-dark">Facebook - <span class="text-muted font-16">125 sales</span> </a></h5>
-                                            <p class="text-muted">Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus tincidunt.</p>
-                                            <a href="#" class="text-primary font-16">Learn more <i class="mdi mdi-chevron-right"></i></a>
-                                        </div>
-                                        <div class="row mt-4">
-                                            <div class="col-4">
-                                                <div class="social-source text-center mt-3">
-                                                    <div class="avatar-xs mx-auto mb-3">
-                                                        <span class="avatar-title rounded-circle bg-primary font-size-16">
-                                                                <i class="mdi mdi-facebook text-white"></i>
-                                                            </span>
-                                                    </div>
-                                                    <h5 class="font-size-15">Facebook</h5>
-                                                    <p class="text-muted mb-0">125 sales</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-4">
-                                                <div class="social-source text-center mt-3">
-                                                    <div class="avatar-xs mx-auto mb-3">
-                                                        <span class="avatar-title rounded-circle bg-info font-size-16">
-                                                                <i class="mdi mdi-twitter text-white"></i>
-                                                            </span>
-                                                    </div>
-                                                    <h5 class="font-size-15">Twitter</h5>
-                                                    <p class="text-muted mb-0">112 sales</p>
-                                                </div>
-                                            </div>
-                                            <div class="col-4">
-                                                <div class="social-source text-center mt-3">
-                                                    <div class="avatar-xs mx-auto mb-3">
-                                                        <span class="avatar-title rounded-circle bg-pink font-size-16">
-                                                                <i class="mdi mdi-instagram text-white"></i>
-                                                            </span>
-                                                    </div>
-                                                    <h5 class="font-size-15">Instagram</h5>
-                                                    <p class="text-muted mb-0">104 sales</p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h4 class="card-title mb-5">Activity</h4>
-                                        <ul class="verti-timeline list-unstyled">
-                                            <li class="event-list">
-                                                <div class="event-timeline-dot">
-                                                    <i class="bx bx-right-arrow-circle font-size-18"></i>
-                                                </div>
-                                                <div class="media">
-                                                    <div class="me-3">
-                                                        <h5 class="font-size-14">22 Nov <i class="bx bx-right-arrow-alt font-size-16 text-primary align-middle ms-2"></i></h5>
-                                                    </div>
-                                                    <div class="media-body">
-                                                        <div>
-                                                            Responded to need “Volunteer Activities
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="event-list">
-                                                <div class="event-timeline-dot">
-                                                    <i class="bx bx-right-arrow-circle font-size-18"></i>
-                                                </div>
-                                                <div class="media">
-                                                    <div class="me-3">
-                                                        <h5 class="font-size-14">17 Nov <i class="bx bx-right-arrow-alt font-size-16 text-primary align-middle ms-2"></i></h5>
-                                                    </div>
-                                                    <div class="media-body">
-                                                        <div>
-                                                            Everyone realizes why a new common language would be desirable... <a href="#">Read more</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="event-list active">
-                                                <div class="event-timeline-dot">
-                                                    <i class="bx bxs-right-arrow-circle font-size-18 bx-fade-right"></i>
-                                                </div>
-                                                <div class="media">
-                                                    <div class="me-3">
-                                                        <h5 class="font-size-14">15 Nov <i class="bx bx-right-arrow-alt font-size-16 text-primary align-middle ms-2"></i></h5>
-                                                    </div>
-                                                    <div class="media-body">
-                                                        <div>
-                                                            Joined the group “Boardsmanship Forum”
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="event-list">
-                                                <div class="event-timeline-dot">
-                                                    <i class="bx bx-right-arrow-circle font-size-18"></i>
-                                                </div>
-                                                <div class="media">
-                                                    <div class="me-3">
-                                                        <h5 class="font-size-14">12 Nov <i class="bx bx-right-arrow-alt font-size-16 text-primary align-middle ms-2"></i></h5>
-                                                    </div>
-                                                    <div class="media-body">
-                                                        <div>
-                                                            Responded to need “In-Kind Opportunity”
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                        <div class="text-center mt-4"><a href="#" class="btn btn-primary waves-effect waves-light btn-sm">View More <i class="mdi mdi-arrow-right ms-1"></i></a></div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-xl-4">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h4 class="card-title mb-4">Top Cities Selling Product</h4>
-
-                                        <div class="text-center">
-                                            <div class="mb-4">
-                                                <i class="bx bx-map-pin text-primary display-4"></i>
-                                            </div>
-                                            <h3>1,456</h3>
-                                            <p>San Francisco</p>
-                                        </div>
-
-                                        <div class="table-responsive mt-4">
-                                            <table class="table align-middle table-nowrap">
-                                                <tbody>
-                                                    <tr>
-                                                        <td style="width: 30%">
-                                                            <p class="mb-0">San Francisco</p>
-                                                        </td>
-                                                        <td style="width: 25%">
-                                                            <h5 class="mb-0">1,456</h5></td>
-                                                        <td>
-                                                            <div class="progress bg-transparent progress-sm">
-                                                                <div class="progress-bar bg-primary rounded" role="progressbar" style="width: 94%" aria-valuenow="94" aria-valuemin="0" aria-valuemax="100"></div>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <p class="mb-0">Los Angeles</p>
-                                                        </td>
-                                                        <td>
-                                                            <h5 class="mb-0">1,123</h5>
-                                                        </td>
-                                                        <td>
-                                                            <div class="progress bg-transparent progress-sm">
-                                                                <div class="progress-bar bg-success rounded" role="progressbar" style="width: 82%" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100"></div>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <p class="mb-0">San Diego</p>
-                                                        </td>
-                                                        <td>
-                                                            <h5 class="mb-0">1,026</h5>
-                                                        </td>
-                                                        <td>
-                                                            <div class="progress bg-transparent progress-sm">
-                                                                <div class="progress-bar bg-warning rounded" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-                                                            </div>
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end row -->
-
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h4 class="card-title mb-4">Latest Transaction</h4>
-                                        <div class="table-responsive">
-                                            <table class="table align-middle table-nowrap mb-0">
-                                                <thead class="table-light">
-                                                    <tr>
-                                                        <th style="width: 20px;">
-                                                            <div class="form-check font-size-16 align-middle">
-                                                                <input class="form-check-input" type="checkbox" id="transactionCheck01">
-                                                                <label class="form-check-label" for="transactionCheck01"></label>
-                                                            </div>
-                                                        </th>
-                                                        <th class="align-middle">Order ID</th>
-                                                        <th class="align-middle">Billing Name</th>
-                                                        <th class="align-middle">Date</th>
-                                                        <th class="align-middle">Total</th>
-                                                        <th class="align-middle">Payment Status</th>
-                                                        <th class="align-middle">Payment Method</th>
-                                                        <th class="align-middle">View Details</th>
-                                                    </tr>
-                                                </thead>
-                                                <tbody>
-                                                    <tr>
-                                                        <td>
-                                                            <div class="form-check font-size-16">
-                                                                <input class="form-check-input" type="checkbox" id="transactionCheck02">
-                                                                <label class="form-check-label" for="transactionCheck02"></label>
-                                                            </div>
-                                                        </td>
-                                                        <td><a href="javascript: void(0);" class="text-body fw-bold">#SK2540</a> </td>
-                                                        <td>Neal Matthews</td>
-                                                        <td>
-                                                            07 Oct, 2019
-                                                        </td>
-                                                        <td>
-                                                            $400
-                                                        </td>
-                                                        <td>
-                                                            <span class="badge badge-pill badge-soft-success font-size-11">Paid</span>
-                                                        </td>
-                                                        <td>
-                                                            <i class="fab fa-cc-mastercard me-1"></i> Mastercard
-                                                        </td>
-                                                        <td>
-                                                            <!-- Button trigger modal -->
-                                                            <button type="button" class="btn btn-primary btn-sm btn-rounded waves-effect waves-light" data-bs-toggle="modal" data-bs-target=".transaction-detailModal">
-                                                                View Details
-                                                            </button>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr>
-                                                        <td>
-                                                            <div class="form-check font-size-16">
-                                                                <input class="form-check-input" type="checkbox" id="transactionCheck03">
-                                                                <label class="form-check-label" for="transactionCheck03"></label>
-                                                            </div>
-                                                        </td>
-                                                        <td><a href="javascript: void(0);" class="text-body fw-bold">#SK2541</a> </td>
-                                                        <td>Jamal Burnett</td>
-                                                        <td>
-                                                            07 Oct, 2019
-                                                        </td>
-                                                        <td>
-                                                            $380
-                                                        </td>
-                                                        <td>
-                                                            <span class="badge badge-pill badge-soft-danger font-size-11">Chargeback</span>
-                                                        </td>
-                                                        <td>
-                                                            <i class="fab fa-cc-visa me-1"></i> Visa
-                                                        </td>
-                                                        <td>
-                                                            <!-- Button trigger modal -->
-                                                            <button type="button" class="btn btn-primary btn-sm btn-rounded waves-effect waves-light" data-bs-toggle="modal" data-bs-target=".transaction-detailModal">
-                                                                View Details
-                                                            </button>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr>
-                                                        <td>
-                                                            <div class="form-check font-size-16">
-                                                                <input class="form-check-input" type="checkbox" id="transactionCheck04">
-                                                                <label class="form-check-label" for="transactionCheck04"></label>
-                                                            </div>
-                                                        </td>
-                                                        <td><a href="javascript: void(0);" class="text-body fw-bold">#SK2542</a> </td>
-                                                        <td>Juan Mitchell</td>
-                                                        <td>
-                                                            06 Oct, 2019
-                                                        </td>
-                                                        <td>
-                                                            $384
-                                                        </td>
-                                                        <td>
-                                                            <span class="badge badge-pill badge-soft-success font-size-11">Paid</span>
-                                                        </td>
-                                                        <td>
-                                                            <i class="fab fa-cc-paypal me-1"></i> Paypal
-                                                        </td>
-                                                        <td>
-                                                            <!-- Button trigger modal -->
-                                                            <button type="button" class="btn btn-primary btn-sm btn-rounded waves-effect waves-light" data-bs-toggle="modal" data-bs-target=".transaction-detailModal">
-                                                                View Details
-                                                            </button>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <div class="form-check font-size-16">
-                                                                <input class="form-check-input" type="checkbox" id="transactionCheck05">
-                                                                <label class="form-check-label" for="transactionCheck05"></label>
-                                                            </div>
-                                                        </td>
-                                                        <td><a href="javascript: void(0);" class="text-body fw-bold">#SK2543</a> </td>
-                                                        <td>Barry Dick</td>
-                                                        <td>
-                                                            05 Oct, 2019
-                                                        </td>
-                                                        <td>
-                                                            $412
-                                                        </td>
-                                                        <td>
-                                                            <span class="badge badge-pill badge-soft-success font-size-11">Paid</span>
-                                                        </td>
-                                                        <td>
-                                                            <i class="fab fa-cc-mastercard me-1"></i> Mastercard
-                                                        </td>
-                                                        <td>
-                                                            <!-- Button trigger modal -->
-                                                            <button type="button" class="btn btn-primary btn-sm btn-rounded waves-effect waves-light" data-bs-toggle="modal" data-bs-target=".transaction-detailModal">
-                                                                View Details
-                                                            </button>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <div class="form-check font-size-16">
-                                                                <input class="form-check-input" type="checkbox" id="transactionCheck06">
-                                                                <label class="form-check-label" for="transactionCheck06"></label>
-                                                            </div>
-                                                        </td>
-                                                        <td><a href="javascript: void(0);" class="text-body fw-bold">#SK2544</a> </td>
-                                                        <td>Ronald Taylor</td>
-                                                        <td>
-                                                            04 Oct, 2019
-                                                        </td>
-                                                        <td>
-                                                            $404
-                                                        </td>
-                                                        <td>
-                                                            <span class="badge badge-pill badge-soft-warning font-size-11">Refund</span>
-                                                        </td>
-                                                        <td>
-                                                            <i class="fab fa-cc-visa me-1"></i> Visa
-                                                        </td>
-                                                        <td>
-                                                            <!-- Button trigger modal -->
-                                                            <button type="button" class="btn btn-primary btn-sm btn-rounded waves-effect waves-light" data-bs-toggle="modal" data-bs-target=".transaction-detailModal">
-                                                                View Details
-                                                            </button>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <div class="form-check font-size-16">
-                                                                <input class="form-check-input" type="checkbox" id="transactionCheck07">
-                                                                <label class="form-check-label" for="transactionCheck07"></label>
-                                                            </div>
-                                                        </td>
-                                                        <td><a href="javascript: void(0);" class="text-body fw-bold">#SK2545</a> </td>
-                                                        <td>Jacob Hunter</td>
-                                                        <td>
-                                                            04 Oct, 2019
-                                                        </td>
-                                                        <td>
-                                                            $392
-                                                        </td>
-                                                        <td>
-                                                            <span class="badge badge-pill badge-soft-success font-size-11">Paid</span>
-                                                        </td>
-                                                        <td>
-                                                            <i class="fab fa-cc-paypal me-1"></i> Paypal
-                                                        </td>
-                                                        <td>
-                                                            <!-- Button trigger modal -->
-                                                            <button type="button" class="btn btn-primary btn-sm btn-rounded waves-effect waves-light" data-bs-toggle="modal" data-bs-target=".transaction-detailModal">
-                                                                View Details
-                                                            </button>
-                                                        </td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                        <!-- end table-responsive -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- end row -->
-                    </div>
-                    <!-- container-fluid -->
-                </div>
-                <!-- End Page-content -->
-
-                <!-- Transaction Modal -->
-                <div class="modal fade transaction-detailModal" tabindex="-1" role="dialog" aria-labelledby="transaction-detailModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="transaction-detailModalLabel">Order Details</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <p class="mb-2">Product id: <span class="text-primary">#SK2540</span></p>
-                                <p class="mb-4">Billing Name: <span class="text-primary">Neal Matthews</span></p>
-
-                                <div class="table-responsive">
-                                    <table class="table align-middle table-nowrap">
-                                        <thead>
-                                            <tr>
-                                                <th scope="col">Product</th>
-                                                <th scope="col">Product Name</th>
-                                                <th scope="col">Price</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <th scope="row">
-                                                    <div>
-                                                        <img src="assets/images/product/img-7.png" alt="" class="avatar-sm">
-                                                    </div>
-                                                </th>
-                                                <td>
-                                                    <div>
-                                                        <h5 class="text-truncate font-size-14">Wireless Headphone (Black)</h5>
-                                                        <p class="text-muted mb-0">$ 225 x 1</p>
-                                                    </div>
-                                                </td>
-                                                <td>$ 255</td>
-                                            </tr>
-                                            <tr>
-                                                <th scope="row">
-                                                    <div>
-                                                        <img src="assets/images/product/img-4.png" alt="" class="avatar-sm">
-                                                    </div>
-                                                </th>
-                                                <td>
-                                                    <div>
-                                                        <h5 class="text-truncate font-size-14">Phone patterned cases</h5>
-                                                        <p class="text-muted mb-0">$ 145 x 1</p>
-                                                    </div>
-                                                </td>
-                                                <td>$ 145</td>
-                                            </tr>
-                                            <tr>
-                                                <td colspan="2">
-                                                    <h6 class="m-0 text-right">Sub Total:</h6>
-                                                </td>
-                                                <td>
-                                                    $ 400
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td colspan="2">
-                                                    <h6 class="m-0 text-right">Shipping:</h6>
-                                                </td>
-                                                <td>
-                                                    Free
-                                                </td>
-                                            </tr>
-                                            <tr>
-                                                <td colspan="2">
-                                                    <h6 class="m-0 text-right">Total:</h6>
-                                                </td>
-                                                <td>
-                                                    $ 400
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end modal -->
-
-                <!-- subscribeModal -->
-                <div class="modal fade" id="subscribeModal" tabindex="-1" aria-labelledby="subscribeModalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered">
-                        <div class="modal-content">
-                            <div class="modal-header border-bottom-0">
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <div class="text-center mb-4">
-                                    <div class="avatar-md mx-auto mb-4">
-                                        <div class="avatar-title bg-light rounded-circle text-primary h1">
-                                            <i class="mdi mdi-email-open"></i>
-                                        </div>
-                                    </div>
-
-                                    <div class="row justify-content-center">
-                                        <div class="col-xl-10">
-                                            <h4 class="text-primary">Subscribe !</h4>
-                                            <p class="text-muted font-size-14 mb-4">Subscribe our newletter and get notification to stay update.</p>
-
-                                            <div class="input-group bg-light rounded">
-                                                <input type="email" class="form-control bg-transparent border-0" placeholder="Enter Email address" aria-label="Recipient's username" aria-describedby="button-addon2">
-                                                
-                                                <button class="btn btn-primary" type="button" id="button-addon2">
-                                                    <i class="bx bxs-paper-plane"></i>
-                                                </button>
-                                                
-                                            </div>
-                                            
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end modal -->
-
-                <footer class="footer">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <script>document.write(new Date().getFullYear())</script> © Skote.
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="text-sm-end d-none d-sm-block">
-                                    Design & Develop by Themesbrand
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </footer>
-            </div>
-            <!-- end main content-->
-
+    <div class="sidebar">
+      <div class="sidebar-header">
+        <div>
+          <a href="../index.html" class="sidebar-logo"><span>cassie</span></a>
+          <small class="sidebar-logo-headline">Responsive Dashboard Template</small>
         </div>
-        <!-- END layout-wrapper -->
+      </div><!-- sidebar-header -->
+      <div id="dpSidebarBody" class="sidebar-body">
+        <ul class="nav nav-sidebar">
+          <li class="nav-label"><label class="content-label">Template Pages</label></li>
+          <li class="nav-item show">
+            <a href="" class="nav-link with-sub active"><i data-feather="box"></i> Dashboard</a>
+            <ul class="nav nav-sub">
+              <li class="nav-sub-item"><a href="dashboard-one.html" class="nav-sub-link active">Analytics &amp; Monitoring</a></li>
+              <li class="nav-sub-item"><a href="dashboard-two.html" class="nav-sub-link">Projects &amp; Web Services</a></li>
+              <li class="nav-sub-item"><a href="dashboard-three.html" class="nav-sub-link">Blog &amp; Social Media</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link with-sub"><i data-feather="layout"></i> App Pages</a>
+            <nav class="nav nav-sub">
+              <a href="app-calendar.html" class="nav-sub-link">Calendar</a>
+              <a href="app-chat.html" class="nav-sub-link">Chat</a>
+              <a href="app-mail.html" class="nav-sub-link">Mail</a>
+            </nav>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link with-sub"><i data-feather="lock"></i> Authentication</a>
+            <nav class="nav nav-sub">
+              <a href="page-signin.html" class="nav-sub-link">Sign In</a>
+              <a href="page-signup.html" class="nav-sub-link">Sign Up</a>
+              <a href="page-forgot.html" class="nav-sub-link">Forgot Password</a>
+            </nav>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link with-sub"><i data-feather="x-circle"></i> Error Pages</a>
+            <nav class="nav nav-sub">
+              <a href="page-404.html" class="nav-sub-link">Page Not Found</a>
+              <a href="page-500.html" class="nav-sub-link">Internal Server Error</a>
+              <a href="page-503.html" class="nav-sub-link">Service Unavailable</a>
+              <a href="page-505.html" class="nav-sub-link">Forbidden Access</a>
+            </nav>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link with-sub"><i data-feather="user"></i> User Pages</a>
+            <nav class="nav nav-sub">
+              <a href="page-profile.html" class="nav-sub-link">User Profile</a>
+              <a href="page-timeline.html" class="nav-sub-link">Timeline</a>
+              <a href="page-people.html" class="nav-sub-link">People</a>
+              <a href="page-settings.html" class="nav-sub-link">Profile Settings</a>
+            </nav>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link with-sub"><i data-feather="file-text"></i> Extras</a>
+            <nav class="nav nav-sub">
+              <a href="page-invoice.html" class="nav-sub-link">Invoice</a>
+              <a href="page-pricing.html" class="nav-sub-link">Pricing</a>
+            </nav>
+          </li>
+          <li class="nav-label"><label class="content-label">UI Design Library</label></li>
+          <li class="nav-item">
+            <a href="" class="nav-link with-sub"><i data-feather="book"></i> Content</a>
+            <nav class="nav nav-sub">
+              <a href="../components/con-grid.html" class="nav-sub-link">Grid System</a>
+              <a href="../components/con-icons.html" class="nav-sub-link">Icons</a>
+              <a href="../components/con-images.html" class="nav-sub-link">Images</a>
+              <a href="../components/con-typography.html" class="nav-sub-link">Typography</a>
+            </nav>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link with-sub"><i data-feather="layers"></i> Components</a>
+            <nav class="nav nav-sub">
+              <a href="../components/com-accordion.html" class="nav-sub-link">Accordion</a>
+              <a href="../components/com-alerts.html" class="nav-sub-link">Alerts</a>
+              <a href="../components/com-avatar.html" class="nav-sub-link">Avatar</a>
+              <a href="../components/com-badge.html" class="nav-sub-link">Badge</a>
+              <a href="../components/com-breadcrumbs.html" class="nav-sub-link">Breadcrumbs</a>
+              <a href="../components/com-buttons.html" class="nav-sub-link">Buttons</a>
+              <a href="../components/com-button-groups.html" class="nav-sub-link">Button Groups</a>
+              <a href="../components/com-cards.html" class="nav-sub-link">Cards</a>
+              <a href="../components/com-carousel.html" class="nav-sub-link">Carousel</a>
+              <a href="../components/com-collapse.html" class="nav-sub-link">Collapse</a>
+              <a href="../components/com-dropdown.html" class="nav-sub-link">Dropdown</a>
+              <a href="../components/com-list-group.html" class="nav-sub-link">List Group</a>
+              <a href="../components/com-marker.html" class="nav-sub-link">Marker</a>
+              <a href="../components/com-media-object.html" class="nav-sub-link">Media Object</a>
+              <a href="../components/com-modal.html" class="nav-sub-link">Modal</a>
+              <a href="../components/com-navs.html" class="nav-sub-link">Navs</a>
+              <a href="../components/com-navbar.html" class="nav-sub-link">Navbar</a>
+              <a href="../components/com-off-canvas.html" class="nav-sub-link">Off-Canvas</a>
+              <a href="../components/com-pagination.html" class="nav-sub-link">Pagination</a>
+              <a href="../components/com-placeholder.html" class="nav-sub-link">Placeholder</a>
+              <a href="../components/com-popovers.html" class="nav-sub-link">Popovers</a>
+                            <a href="../components/com-progress.html" class="nav-sub-link">Progress</a>
+              <a href="../components/com-steps.html" class="nav-sub-link">Steps</a>
+              <a href="../components/com-scrollbar.html" class="nav-sub-link">Scrollbar</a>
+              <a href="../components/com-scrollspy.html" class="nav-sub-link">Scrollspy</a>
+              <a href="../components/com-spinners.html" class="nav-sub-link">Spinners</a>
+              <a href="../components/com-tab.html" class="nav-sub-link">Tab</a>
+              <a href="../components/com-toast.html" class="nav-sub-link">Toast </a>
+              <a href="../components/com-tooltips.html" class="nav-sub-link">Tooltips</a>
+              <a href="../components/com-table-basic.html" class="nav-sub-link">Table Basic</a>
+              <a href="../components/com-table-advanced.html" class="nav-sub-link">Table (Datatable)</a>
+            </nav>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link with-sub"><i data-feather="monitor"></i> Utilities</a>
+            <nav class="nav nav-sub">
+              <a href="../components/util-animation.html" class="nav-sub-link">Animation</a>
+              <a href="../components/util-background.html" class="nav-sub-link">Background</a>
+              <a href="../components/util-border.html" class="nav-sub-link">Border</a>
+              <a href="../components/util-display.html" class="nav-sub-link">Display</a>
+              <a href="../components/util-divider.html" class="nav-sub-link">Divider</a>
+              <a href="../components/util-flex.html" class="nav-sub-link">Flex</a>
+              <a href="../components/util-height.html" class="nav-sub-link">Height</a>
+              <a href="../components/util-margin.html" class="nav-sub-link">Margin</a>
+              <a href="../components/util-padding.html" class="nav-sub-link">Padding</a>
+              <a href="../components/util-position.html" class="nav-sub-link">Position</a>
+              <a href="../components/util-typography.html" class="nav-sub-link">Typography</a>
+              <a href="../components/util-width.html" class="nav-sub-link">Width</a>
+              <a href="../components/util-extras.html" class="nav-sub-link">Extras</a>
+            </nav>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link with-sub"><i data-feather="life-buoy"></i> Forms</a>
+            <nav class="nav nav-sub">
+              <a href="../components/form-elements.html" class="nav-sub-link">Form Elements</a>
+              <a href="../components/form-input-group.html" class="nav-sub-link">Input Group</a>
+              <a href="../components/form-input-tags.html" class="nav-sub-link">Input Tags</a>
+              <a href="../components/form-input-masks.html" class="nav-sub-link">Input Masks</a>
+              <a href="../components/form-validation.html" class="nav-sub-link">Form Validation</a>
+              <a href="../components/form-wizard.html" class="nav-sub-link">Form Wizard</a>
+              <a href="../components/form-text-editor.html" class="nav-sub-link">Text Editor</a>
+              <a href="../components/form-rangeslider.html" class="nav-sub-link">Range Slider</a>
+              <a href="../components/form-datepicker.html" class="nav-sub-link">Date Pickers</a>
+              <a href="../components/form-select2.html" class="nav-sub-link">Select2</a>
+              <a href="../components/form-search.html" class="nav-sub-link">Search</a>
+            </nav>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link with-sub"><i data-feather="pie-chart"></i> Charts</a>
+            <nav class="nav nav-sub">
+              <a href="../components/chart-flot.html" class="nav-sub-link">Flot</a>
+              <a href="../components/chart-chartjs.html" class="nav-sub-link">ChartJS</a>
+              <a href="../components/chart-peity.html" class="nav-sub-link">Peity</a>
+              <a href="../components/chart-sparkline.html" class="nav-sub-link">Sparkline</a>
+              <a href="../components/chart-morris.html" class="nav-sub-link">Morris</a>
+            </nav>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link with-sub"><i data-feather="map-pin"></i> Maps</a>
+            <nav class="nav nav-sub">
+              <a href="../components/map-google.html" class="nav-sub-link">Google Maps</a>
+              <a href="../components/map-leaflet.html" class="nav-sub-link">Leaflet Maps</a>
+              <a href="../components/map-vector.html" class="nav-sub-link">Vector Maps</a>
+            </nav>
+          </li>
+        </ul>
 
-        <!-- Right Sidebar -->
-        <div class="right-bar">
-            <div data-simplebar class="h-100">
-                <div class="rightbar-title d-flex align-items-center px-3 py-4">
-            
-                    <h5 class="m-0 me-2">Settings</h5>
+        <hr class="mg-t-30 mg-b-25">
 
-                    <a href="javascript:void(0);" class="right-bar-toggle ms-auto">
-                        <i class="mdi mdi-close noti-icon"></i>
-                    </a>
-                </div>
+        <ul class="nav nav-sidebar">
+          <li class="nav-item"><a href="themes.html" class="nav-link"><i data-feather="aperture"></i> Themes</a></li>
+          <li class="nav-item"><a href="../docs.html" class="nav-link"><i data-feather="help-circle"></i> Documentation</a></li>
+        </ul>
 
-                <!-- Settings -->
-                <hr class="mt-0" />
-                <h6 class="text-center mb-0">Choose Layouts</h6>
 
-                <div class="p-4">
-                    <div class="mb-2">
-                        <img src="assets/images/layouts/layout-1.jpg" class="img-fluid img-thumbnail" alt="">
-                    </div>
+      </div><!-- sidebar-body -->
+    </div><!-- sidebar -->
 
-                    <div class="form-check form-switch mb-3">
-                        <input class="form-check-input theme-choice" type="checkbox" id="light-mode-switch" checked>
-                        <label class="form-check-label" for="light-mode-switch">Light Mode</label>
-                    </div>
-    
-                    <div class="mb-2">
-                        <img src="assets/images/layouts/layout-2.jpg" class="img-fluid img-thumbnail" alt="">
-                    </div>
-                    <div class="form-check form-switch mb-3">
-                        <input class="form-check-input theme-choice" type="checkbox" id="dark-mode-switch" data-bsStyle="assets/css/bootstrap-dark.min.css" data-appStyle="assets/css/app-dark.min.css">
-                        <label class="form-check-label" for="dark-mode-switch">Dark Mode</label>
-                    </div>
-    
-                    <div class="mb-2">
-                        <img src="assets/images/layouts/layout-3.jpg" class="img-fluid img-thumbnail" alt="">
-                    </div>
-                    <div class="form-check form-switch mb-5">
-                        <input class="form-check-input theme-choice" type="checkbox" id="rtl-mode-switch" data-appStyle="assets/css/app-rtl.min.css">
-                        <label class="form-check-label" for="rtl-mode-switch">RTL Mode</label>
-                    </div>
+    <div class="content content-page">
+      <div class="header">
+        <div class="header-left">
+          <a href="" class="burger-menu"><i data-feather="menu"></i></a>
 
-            
-                </div>
+          <div class="header-search">
+            <i data-feather="search"></i>
+            <input type="search" class="form-control" placeholder="What are you looking for?">
+          </div><!-- header-search -->
+        </div><!-- header-left -->
 
-            </div> <!-- end slimscroll-menu-->
+        <div class="header-right">
+          <a href="" class="header-help-link"><i data-feather="help-circle"></i></a>
+          <div class="dropdown dropdown-notification">
+            <a href="" class="dropdown-link new" data-toggle="dropdown"><i data-feather="bell"></i></a>
+            <div class="dropdown-menu dropdown-menu-right">
+              <div class="dropdown-menu-header">
+                <h6>Notifications</h6>
+                <a href=""><i data-feather="more-vertical"></i></a>
+              </div><!-- dropdown-menu-header -->
+              <div class="dropdown-menu-body">
+                <a href="" class="dropdown-item">
+                  <div class="avatar"><span class="avatar-initial rounded-circle text-primary bg-primary-light">s</span></div>
+                  <div class="dropdown-item-body">
+                    <p><strong>Socrates Itumay</strong> marked the task as completed.</p>
+                    <span>5 hours ago</span>
+                  </div>
+                </a>
+                <a href="" class="dropdown-item">
+                  <div class="avatar"><span class="avatar-initial rounded-circle tx-pink bg-pink-light">r</span></div>
+                  <div class="dropdown-item-body">
+                    <p><strong>Reynante Labares</strong> marked the task as incomplete.</p>
+                    <span>8 hours ago</span>
+                  </div>
+                </a>
+                <a href="" class="dropdown-item">
+                  <div class="avatar"><span class="avatar-initial rounded-circle tx-success bg-success-light">d</span></div>
+                  <div class="dropdown-item-body">
+                    <p><strong>Dyanne Aceron</strong> responded to your comment on this <strong>post</strong>.</p>
+                    <span>a day ago</span>
+                  </div>
+                </a>
+                <a href="" class="dropdown-item">
+                  <div class="avatar"><span class="avatar-initial rounded-circle tx-indigo bg-indigo-light">k</span></div>
+                  <div class="dropdown-item-body">
+                    <p><strong>Kirby Avendula</strong> marked the task as incomplete.</p>
+                    <span>2 days ago</span>
+                  </div>
+                </a>
+              </div><!-- dropdown-menu-body -->
+              <div class="dropdown-menu-footer">
+                <a href="">View All Notifications</a>
+              </div>
+            </div><!-- dropdown-menu -->
+          </div>
+          <div class="dropdown dropdown-loggeduser">
+            <a href="" class="dropdown-link" data-toggle="dropdown">
+              <div class="avatar avatar-sm">
+                <img src="https://via.placeholder.com/500/637382/fff" class="rounded-circle" alt="">
+              </div><!-- avatar -->
+            </a>
+            <div class="dropdown-menu dropdown-menu-right">
+              <div class="dropdown-menu-header">
+                <div class="media align-items-center">
+                  <div class="avatar">
+                    <img src="https://via.placeholder.com/500/637382/fff" class="rounded-circle" alt="">
+                  </div><!-- avatar -->
+                  <div class="media-body mg-l-10">
+                    <h6>Louise Kate Lumaad</h6>
+                    <span>Administrator</span>
+                  </div>
+                </div><!-- media -->
+              </div>
+              <div class="dropdown-menu-body">
+                <a href="" class="dropdown-item"><i data-feather="user"></i> View Profile</a>
+                <a href="" class="dropdown-item"><i data-feather="edit-2"></i> Edit Profile</a>
+                <a href="" class="dropdown-item"><i data-feather="briefcase"></i> Account Settings</a>
+                <a href="" class="dropdown-item"><i data-feather="shield"></i> Privacy Settings</a>
+                <a href="" class="dropdown-item"><i data-feather="log-out"></i> Sign Out</a>
+              </div>
+            </div><!-- dropdown-menu -->
+          </div>
+        </div><!-- header-right -->
+      </div><!-- header -->
+      <div class="content-header justify-content-between">
+        <div>
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="#">Pages</a></li>
+              <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Analytics &amp; Monitoring</li>
+            </ol>
+          </nav>
+          <h4 class="content-title content-title-xs">Welcome to Dashboard</h4>
         </div>
-        <!-- /Right-bar -->
+        <div class="d-none d-sm-flex">
+          <a href="" class="btn btn-white"><i data-feather="share-2" class="svg-14"></i> Share</a>
+          <a href="" class="btn btn-brand-01 mg-l-5"><i data-feather="save" class="svg-14"></i> Save</a>
+        </div>
+      </div><!-- content-header -->
+      <div class="content-body">
+        <div class="row row-sm">
+          <div class="col-xl-8">
+            <div class="card card-hover card-analytics-one">
+              <div class="card-body">
+                <div class="row row-sm">
+                  <div class="col-sm-8 col-md-8">
+                    <label class="tx-medium tx-14 tx-color-01 mg-b-2">Organic Visits &amp; Conversions</label>
+                    <p class="tx-12 tx-color-03 mg-b-20">Detailed breakdown is available on your report page. <a href="" class="link-05">Learn more</a></p>
+                    <div class="chart-wrapper">
+                      <div id="flotChart" class="flot-chart"></div>
+                    </div>
+                  </div>
+                  <div class="col-sm-4 col-md-4 mg-t-15 mg-sm-t-0">
+                    <div class="d-flex mg-b-20">
+                      <select class="custom-select custom-select-sm tx-12">
+                        <option selected="">Last 30 days</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                      </select>
+                      <button class="btn btn-secondary btn-xs btn-icon pd-y-0 mg-l-5 flex-shrink-0"><i data-feather="download"></i></button>
+                    </div>
+                    <label class="content-label content-label-xs">Conversion Rate</label>
+                    <div class="d-flex align-items-baseline mg-b-5">
+                      <h2 class="card-value mg-b-0">3.80<span>%</span></h2>
+                      <span class="card-value-sub tx-success"><i class="icon ion-android-arrow-up"></i> 40.7%</span>
+                    </div>
+                    <div class="progress progress-value">
+                      <div class="progress-bar wd-75p" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <p class="card-value-desc">Measures the ratio of a website’s visitors to conversions.</p>
 
-        <!-- Right bar overlay-->
-        <div class="rightbar-overlay"></div>
+                    <hr class="mg-y-10 op-0">
+
+                    <label class="content-label content-label-xs">Conversion Value</label>
+                    <div class="d-flex align-items-baseline mg-b-5">
+                      <h2 class="card-value mg-b-0"><span>$</span>1,368</h2>
+                      <span class="card-value-sub tx-pink"><i class="icon ion-android-arrow-down"></i> 0.12%</span>
+                    </div>
+                    <div class="progress progress-value">
+                      <div class="progress-bar bg-brand-02 wd-30p" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <p class="card-value-desc">Refers to the financial worth of the securities obtained.</p>
+
+                  </div><!-- col -->
+                </div><!-- row -->
+              </div>
+              <div class="card-footer bg-transparent">
+                <div class="row no-gutters">
+                  <div class="col-6 col-sm">
+                    <div class="d-flex align-items-baseline mg-b-5">
+                      <h4 class="tx-numeric tx-normal"><span>$</span>134.10</h4>
+                      <span class="card-value-sub tx-success"><i class="icon ion-android-arrow-up"></i> 3.8%</span>
+                    </div>
+                    <label class="content-label content-label-xs">Total Cost</label>
+                  </div><!-- col -->
+                  <div class="col-6 col-sm">
+                    <div class="d-flex align-items-baseline mg-b-5">
+                      <h4 class="tx-numeric tx-normal">874</h4>
+                      <span class="card-value-sub tx-danger"><i class="icon ion-android-arrow-down"></i> 0.3%</span>
+                    </div>
+                    <label class="content-label content-label-xs">Impressions</label>
+                  </div><!-- col -->
+                  <div class="col-6 col-sm mg-t-15 mg-sm-t-0">
+                    <div class="d-flex align-items-baseline mg-b-5">
+                      <h4 class="tx-numeric tx-normal">30</h4>
+                      <span class="card-value-sub tx-danger"><i class="icon ion-android-arrow-down"></i> 0.2%</span>
+                    </div>
+                    <label class="content-label content-label-xs">Total Clicks</label>
+                  </div><!-- col -->
+                  <div class="col-6 col-sm mg-t-15 mg-sm-t-0">
+                    <div class="d-flex align-items-baseline mg-b-5">
+                      <h4 class="tx-numeric tx-normal">4.8%</h4>
+                      <span class="card-value-sub tx-success"><i class="icon ion-android-arrow-up"></i> 0.3%</span>
+                    </div>
+                    <label class="content-label content-label-xs">Click-Through Rate</label>
+                  </div><!-- col -->
+                  <div class="col-6 col-sm mg-t-15 mg-sm-t-0">
+                    <div class="d-flex align-items-baseline mg-b-5">
+                      <h4 class="tx-numeric tx-normal"><span>$</span>3.28</h4>
+                      <span class="card-value-sub tx-danger"><i class="icon ion-android-arrow-down"></i> 1.1%</span>
+                    </div>
+                    <label class="content-label content-label-xs">Cost Per Click</label>
+                  </div><!-- col -->
+                </div><!-- row -->
+              </div><!-- card-footer -->
+            </div><!-- card -->
+          </div><!-- col -->
+          <div class="col-md-5 col-lg-6 col-xl-4 mg-t-15 mg-sm-t-20 mg-xl-t-0">
+            <div class="card card-hover card-analytics-two">
+              <div class="card-header bg-transparent">
+                <h6 class="card-title mg-b-0">Browser Usage</h6>
+                <nav class="nav nav-card-icon">
+                  <a href=""><i data-feather="refresh-ccw"></i></a>
+                  <a href=""><i data-feather="printer"></i></a>
+                  <a href=""><i data-feather="more-horizontal"></i></a>
+                </nav>
+              </div><!-- card-header -->
+              <div class="card-body">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <div class="list-group-icon bg-orange tx-white"><i class="fab fa-firefox"></i></div>
+                    <div class="list-body">
+                      <h6>Mozilla Firefox</h6>
+                      <span>Mozilla Foundation, Inc.</span>
+                    </div>
+                    <div class="list-visit">76,909</div>
+                    <div class="list-rate tx-success"><i class="icon ion-android-arrow-up"></i>36.76%</div>
+                  </li>
+                  <li class="list-group-item">
+                    <div class="list-group-icon bg-primary tx-white"><i class="fab fa-chrome"></i></div>
+                    <div class="list-body">
+                      <h6>Google Chrome</h6>
+                      <span>Google LLC, Inc.</span>
+                    </div>
+                    <div class="list-visit">64,363</div>
+                    <div class="list-rate tx-danger"><i class="icon ion-android-arrow-down"></i>28.93%</div>
+                  </li>
+                  <li class="list-group-item">
+                    <div class="list-group-icon bg-danger tx-white"><i class="fab fa-opera"></i></div>
+                    <div class="list-body">
+                      <h6>Opera</h6>
+                      <span>Opera Software</span>
+                    </div>
+                    <div class="list-visit">33,978</div>
+                    <div class="list-rate tx-success"><i class="icon ion-android-arrow-up"></i>16.84%</div>
+                  </li>
+                  <li class="list-group-item">
+                    <div class="list-group-icon bg-blue tx-white"><i class="fab fa-edge"></i></div>
+                    <div class="list-body">
+                      <h6>Internet Explorer</h6>
+                      <span>Microsoft Corporation</span>
+                    </div>
+                    <div class="list-visit">3,946</div>
+                    <div class="list-rate tx-success"><i class="icon ion-android-arrow-up"></i>1.76%</div>
+                  </li>
+                  <li class="list-group-item">
+                    <div class="list-group-icon bg-green tx-white"><i class="fab fa-android"></i></div>
+                    <div class="list-body">
+                      <h6>Android Browser</h6>
+                      <span>Google LLC, Inc.</span>
+                    </div>
+                    <div class="list-visit">1,786</div>
+                    <div class="list-rate tx-danger"><i class="icon ion-android-arrow-down"></i>0.88%</div>
+                  </li>
+                  <li class="list-group-item">
+                    <div class="list-group-icon bg-indigo tx-white"><i class="fab fa-edge"></i></div>
+                    <div class="list-body">
+                      <h6>Edge</h6>
+                      <span>Microsoft Corporation</span>
+                    </div>
+                    <div class="list-visit">338</div>
+                    <div class="list-rate tx-success"><i class="icon ion-android-arrow-up"></i>0.16%</div>
+                  </li>
+                </ul>
+              </div>
+            </div><!-- card -->
+          </div><!-- col -->
+          <div class="col-md-7 col-lg-6 mg-t-15 mg-sm-t-20">
+            <div class="card card-hover card-chart-two">
+              <div class="card-header bg-transparent bd-b-0">
+                <h1 class="card-value">8,217.34<span>usd</span></h1>
+                <p class="card-value-label">Your Earnings</p>
+                <p class="tx-color-03">Your sales and referral earnings over the last 30 days</p>
+                <p class="tx-11 tx-gray-500 mg-b-20">This does not show transactions affecting your deposits balance. Detailed breakdown is available on your statement page.</p>
+                <a href="" class="btn btn-xs btn-brand-01">View Statements</a>
+              </div><!-- card-header -->
+
+              <nav class="nav nav-card-icon">
+                <a href=""><i data-feather="refresh-ccw"></i></a>
+                <a href=""><i data-feather="printer"></i></a>
+                <a href=""><i data-feather="more-horizontal"></i></a>
+              </nav>
+
+              <div class="card-body">
+                <div class="chart-wrapper">
+                  <div id="flotChart4" class="flot-chart"></div>
+                </div><!-- chart-wrapper -->
+              </div>
+            </div><!-- card -->
+          </div><!-- col -->
+          <div class="col-md-12 col-xl-6 mg-t-15 mg-sm-t-20">
+            <div class="card card-hover card-chart-three">
+              <div class="card-header bg-transparent pd-lg-y-15">
+                <h6 class="card-title mg-b-0">Sales Revenue</h6>
+                <nav class="nav nav-card-icon">
+                  <a href=""><i data-feather="refresh-ccw"></i></a>
+                  <a href=""><i data-feather="printer"></i></a>
+                  <a href=""><i data-feather="more-horizontal"></i></a>
+                </nav>
+              </div><!-- card-header -->
+              <div class="card-body">
+                <div class="card-chart-header">
+                  <div class="chart-legend">
+                    <label><span class="bg-blue"></span> Online</label>
+                    <label><span class="bg-green"></span> Offline</label>
+                  </div>
+                  <div class="btn-group">
+                    <button class="btn btn-white btn-xs">Day</button>
+                    <button class="btn btn-white btn-xs">Week</button>
+                    <button class="btn btn-white btn-xs active">Month</button>
+                  </div><!-- btn-group -->
+                </div><!-- card-chart-header -->
+
+                <div class="chart-wrapper"><canvas id="chartBar1"></canvas></div>
+              </div>
+            </div><!-- card -->
+          </div><!-- col -->
+          <div class="col-sm-6 col-md-4 mg-t-15 mg-sm-t-20">
+            <div class="card card-hover card-chart-one">
+              <div class="card-header bg-transparent pd-b-0 bd-b-0">
+                <h6 class="card-title mg-b-0">Number of Sales</h6>
+                <nav class="nav">
+                  <a href="" class="link-gray-500"><i data-feather="help-circle" class="svg-16"></i></a>
+                  <a href="" class="link-gray-500"><i data-feather="more-vertical" class="svg-16"></i></a>
+                </nav>
+              </div>
+              <div class="card-body pd-t-0">
+                <div>
+                  <h1 class="card-value">823</h1>
+                  <div class="d-flex align-items-center tx-teal">
+                    <i data-feather="arrow-up-circle" class="svg-12 fill-teal"></i>
+                    <span class="mg-l-5 tx-numeric tx-11">31.82%</span>
+                  </div>
+                </div>
+                <div id="flotChart2" class="flot-chart"></div>
+              </div><!-- card-body -->
+            </div><!-- card -->
+          </div><!-- col -->
+          <div class="col-sm-6 col-md-4 mg-t-15 mg-sm-t-20">
+            <div class="card card-hover card-chart-one">
+              <div class="card-header bg-transparent pd-t-15 pd-l-20 pd-r-15 pd-b-0 bd-b-0">
+                <h6 class="card-title mg-b-0">Total Revenue</h6>
+                <nav class="nav">
+                  <a href="" class="link-gray-500"><i data-feather="help-circle" class="svg-16"></i></a>
+                  <a href="" class="link-gray-500"><i data-feather="more-vertical" class="svg-16"></i></a>
+                </nav>
+              </div>
+              <div class="card-body pd-t-0">
+                <div>
+                  <h1 class="card-value"><span>$</span>180k</h1>
+                  <div class="d-flex align-items-center tx-danger">
+                    <i data-feather="arrow-down-circle" class="svg-12 fill-pink"></i>
+                    <span class="mg-l-5 tx-numeric tx-11">10.74%</span>
+                  </div>
+                </div>
+                <div id="flotChart3" class="flot-chart"></div>
+              </div><!-- card-body -->
+            </div><!-- card -->
+          </div><!-- col -->
+          <div class="col-sm-6 col-md-4 mg-t-15 mg-sm-t-20">
+            <div class="card card-hover card-chart-one">
+              <div class="card-header bg-transparent pd-t-15 pd-l-20 pd-r-15 pd-b-0 bd-b-0">
+                <h6 class="card-title mg-b-0">Total Profit</h6>
+                <nav class="nav">
+                  <a href="" class="link-gray-500"><i data-feather="help-circle" class="svg-16"></i></a>
+                  <a href="" class="link-gray-500"><i data-feather="more-vertical" class="svg-16"></i></a>
+                </nav>
+              </div>
+              <div class="card-body pd-t-0">
+                <div>
+                  <h1 class="card-value"><span>$</span>39,020</h1>
+                  <div class="d-flex align-items-center tx-teal">
+                    <i data-feather="arrow-up-circle" class="svg-12 fill-teal"></i>
+                    <span class="mg-l-5 tx-numeric tx-11">28.68%</span>
+                  </div>
+                </div>
+                <div id="flotChart1" class="flot-chart"></div>
+              </div><!-- card-body -->
+            </div><!-- card -->
+          </div><!-- col -->
+          <div class="col-md-6 col-xl-4 mg-t-15 mg-sm-t-20 order-md-1 order-xl-0">
+            <div class="card card-hover card-chart-one ht-md-100p">
+              <div class="card-header bg-transparent pd-b-15-f bd-b-0">
+                <div>
+                  <h6 class="card-title mg-b-0">Daily Sales Quota</h6>
+                </div>
+                <nav class="nav">
+                  <a href="" class="link-gray-500"><i data-feather="help-circle" class="svg-16"></i></a>
+                  <a href="" class="link-gray-500"><i data-feather="more-vertical" class="svg-16"></i></a>
+                </nav>
+              </div>
+              <div class="card-body pd-t-0 d-block">
+                <div class="d-flex align-items-center justify-content-between mg-b-10">
+                  <p class="tx-11 tx-color-03 mg-b-0">Today, July 31, 2019</p>
+                  <div class="chart-legend">
+                    <label><span class="bg-brand-01"></span> Goal reached</label>
+                  </div>
+                </div>
+                <div id="flotChart5" class="flot-chart-two"></div>
+              </div><!-- card-body -->
+              <div class="card-footer bg-transparent pd-y-15 pd-x-20">
+                <div class="row row-sm tx-13">
+                  <div class="col">
+                    <label class="tx-13 mg-b-3">Sales Goal</label>
+                    <h4 class="mg-b-0">60</h4>
+                    <small class="tx-11 tx-color-04">Products per day</small>
+                  </div><!-- col -->
+                  <div class="col">
+                    <label class="tx-13 mg-b-3">Reached Today</label>
+                    <h4 class="mg-b-0">38</h4>
+                    <small class="tx-11 tx-color-04">64% goal reached</small>
+                  </div><!-- col -->
+                </div><!-- row -->
+              </div><!-- card-footer -->
+            </div><!-- card -->
+          </div><!-- col -->
+          <div class="col-md-12 col-xl-8 mg-t-15 mg-sm-t-20">
+            <div class="card card-hover card-sale-location">
+              <div class="card-header bg-transparent">
+                <div>
+                  <h6 class="card-title mg-b-0">Sales Revenue by Location</h6>
+                </div>
+                <nav class="nav">
+                  <a href="" class="link-gray-500"><i data-feather="help-circle" class="svg-16"></i></a>
+                  <a href="" class="link-gray-500"><i data-feather="more-vertical" class="svg-16"></i></a>
+                </nav>
+              </div><!-- card-header -->
+              <div class="card-body">
+                <div class="list-group-wrapper order-2 order-md-0 mg-t-20 mg-sm-t-30 mg-md-t-0">
+                  <label class="content-label mg-b-8">Your Top Countries</label>
+                  <ul class="list-group list-group-flush mg-b-15">
+                    <li class="list-group-item">
+                      <span class="bg-primary"></span>
+                      <span>United States</span>
+                      <span class="tx-medium">$530</span>
+                    </li>
+                    <li class="list-group-item">
+                      <span class="bg-teal"></span>
+                      <span>India</span>
+                      <span class="tx-medium">$500</span>
+                    </li>
+                    <li class="list-group-item">
+                      <span class="bg-warning"></span>
+                      <span>United Kingdom</span>
+                      <span class="tx-medium">$475</span>
+                    </li>
+                    <li class="list-group-item">
+                      <span class="bg-pink"></span>
+                      <span>Brazil</span>
+                      <span class="tx-medium">$430</span>
+                    </li>
+                    <li class="list-group-item">
+                      <span class="bg-purple"></span>
+                      <span>France</span>
+                      <span class="tx-medium">$405</span>
+                    </li>
+                    <li class="list-group-item">
+                      <span class="bg-success"></span>
+                      <span>Netherlands</span>
+                      <span class="tx-medium">$381</span>
+                    </li>
+                  </ul>
+                  <a href="" class="d-flex align-items-center tx-12">Show full report <i class="icon ion-android-arrow-forward mg-l-5"></i></a>
+                </div>
+                <div class="vmap-wrapper">
+                  <div id="vmap" class="vmap order-1 order-md-0"></div>
+                </div>
+              </div><!-- card-body -->
+            </div><!-- card -->
+          </div><!-- col -->
+          <div class="col-md-6 col-xl-4 mg-t-15 mg-sm-t-20 order-md-2 order-xl-0">
+            <div class="card card-hover card-chart-one bg-primary">
+              <div class="card-header bg-transparent pd-b-15-f bd-b-0">
+                <div>
+                  <h6 class="card-title mg-b-0">Accounts This Month</h6>
+                </div>
+                <nav class="nav">
+                  <a href="" class="link-white"><i data-feather="help-circle" class="svg-16"></i></a>
+                  <a href="" class="link-white"><i data-feather="more-vertical" class="svg-16"></i></a>
+                </nav>
+              </div>
+              <div class="card-body pd-t-0 d-block">
+                <div class="d-flex align-items-center justify-content-between mg-b-10">
+                  <p class="tx-11 tx-white-5 mg-b-0">July 01-31, 2019</p>
+                  <div class="chart-legend">
+                    <label><span class="bg-brand-02"></span> Goal reached</label>
+                  </div>
+                </div>
+                <div id="flotChart6" class="flot-chart-two"></div>
+              </div><!-- card-body -->
+              <div class="card-footer bg-white pd-y-15 pd-x-20">
+                <div class="row row-sm">
+                  <div class="col">
+                    <label class="tx-13 mg-b-3">New Accounts</label>
+                    <h4 class="mg-b-8">248</h4>
+                    <div class="progress ht-2 mg-b-5">
+                      <div class="progress-bar wd-50p" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <small class="tx-11 tx-color-04">48% target reached</small>
+                  </div><!-- col -->
+                  <div class="col">
+                    <label class="tx-13 mg-b-3">Target Reached</label>
+                    <h4 class="mg-b-8">48%</h4>
+                    <div class="progress ht-2 mg-b-5">
+                      <div class="progress-bar wd-50p" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <small class="tx-11 tx-color-04">600 accounts per day</small>
+                  </div><!-- col -->
+                </div><!-- row -->
+              </div><!-- card-footer -->
+            </div><!-- card -->
+          </div><!-- col -->
+          <div class="col-md-12 col-xl-8 mg-t-15 mg-sm-t-20">
+            <div class="card card-hover card-total-sales">
+              <div class="card-header bg-transparent pd-y-15 pd-l-15 pd-sm-l-20 pd-r-15 bd-b-0">
+                <h6 class="card-title mg-b-0">Total Sales</h6>
+                <nav class="nav">
+                  <a href="" class="link-gray-500"><i data-feather="help-circle" class="svg-16"></i></a>
+                  <a href="" class="link-gray-500"><i data-feather="more-vertical" class="svg-16"></i></a>
+                </nav>
+              </div><!-- card-header -->
+              <div class="card-body pd-x-15 pd-sm-x-20 pd-t-5">
+                <div class="d-flex flex-column flex-sm-row align-items-start justify-content-between mg-b-15">
+                  <div class="total-sales-info order-2 order-sm-0">
+                    <div>
+                      <label>Total Sales</label>
+                      <h5>486,030<span>usd</span></h5>
+                    </div>
+                    <div>
+                      <label>Total Profit</label>
+                      <h5>988,097<span>usd</span></h5>
+                    </div>
+                    <div>
+                      <label>No. of Orders</label>
+                      <h5>36,760</h5>
+                    </div>
+                  </div><!-- total-sales-info -->
+                  <div class="order-1 order-sm-0 mg-sm-t-7 mg-b-15 mg-sm-b-0">
+                    <button class="btn btn-xs btn-white pd-x-10">Quarterly <i class="icon ion-ios-arrow-down mg-l-5"></i></button>
+                    <button class="btn btn-xs btn-white pd-x-10">All Products <i class="icon ion-ios-arrow-down mg-l-5"></i></button>
+                  </div>
+                </div>
+                <div class="flot-wrapper">
+                  <div class="chart-legend">
+                    <label><span class="bg-blue"></span> Offline Sales</label>
+                    <label><span class="bg-green"></span> Online Sales</label>
+                  </div>
+                  <div id="flotChart7" class="flot-chart"></div>
+                </div>
+              </div><!-- card-body -->
+            </div><!-- card -->
+          </div><!-- col -->
+          <div class="col-md-6 mg-t-15 mg-sm-t-20">
+            <div class="card card-hover card-chart-four">
+              <div class="card-header bg-transparent">
+                <h6 class="card-title mg-b-0">Incremental Sales<span class="d-none d-sm-inline"> By Campaign</span></h6>
+                <nav class="nav nav-card-icon">
+                  <a href=""><i data-feather="refresh-ccw"></i></a>
+                  <a href=""><i data-feather="printer"></i></a>
+                  <a href=""><i data-feather="more-horizontal"></i></a>
+                </nav>
+              </div><!-- card-header -->
+              <div class="card-body">
+                <div class="chart-wrapper"><canvas id="chartBar2"></canvas></div>
+              </div><!-- card-body -->
+            </div><!-- card -->
+          </div><!-- col -->
+          <div class="col-md-6 mg-t-15 mg-sm-t-20">
+            <div class="card card-hover card-campaign-one">
+              <div class="card-header bg-transparent">
+                <h6 class="card-title mg-b-0">Campaign Performance</h6>
+                <nav class="nav nav-card-icon">
+                  <a href=""><i data-feather="refresh-ccw"></i></a>
+                  <a href=""><i data-feather="printer"></i></a>
+                  <a href=""><i data-feather="more-horizontal"></i></a>
+                </nav>
+              </div><!-- card-header -->
+              <div class="card-body pd-xl-25">
+                <div class="row">
+                  <div class="col-sm">
+                    <div class="chart-icon brand-02"><i data-feather="box"></i></div>
+                    <h1 class="chart-value">68<span>%</span></h1>
+                    <div class="progress ht-5 mg-b-20">
+                      <div class="progress-bar bg-brand-02 wd-70p" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <p class="chart-label">Change in consideration</p>
+                    <span class="d-block tx-gray-500 tx-12">of campaigns saw a lift in consideration, with an average lift of 15%.</span>
+                  </div><!-- col -->
+                  <div class="col-sm mg-t-25 mg-sm-t-0">
+                    <div class="chart-icon brand-01"><i data-feather="layout"></i></div>
+                    <h1 class="chart-value">30<span>%</span></h1>
+                    <div class="progress ht-5 mg-b-20">
+                      <div class="progress-bar bg-brand-01 wd-30p" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <p class="chart-label">Change in favorality</p>
+                    <span class="d-block tx-gray-500 tx-12">of campaigns saw a lift in favorality, with an average lift of 12%.</span>
+                  </div><!-- col -->
+                </div><!-- row -->
+              </div><!-- card-body -->
+            </div><!-- card -->
+          </div><!-- col -->
+          <div class="col-md-12 col-xl-7 mg-t-15 mg-sm-t-20">
+            <div class="card card-hover card-deal">
+              <div class="card-header bg-transparent bd-b-0">
+                <h6 class="card-title mg-b-0">Top Sales Representative</h6>
+                <nav class="nav nav-card-icon">
+                  <a href=""><i data-feather="save"></i></a>
+                  <a href=""><i data-feather="printer"></i></a>
+                  <a href=""><i data-feather="more-horizontal"></i></a>
+                </nav>
+              </div><!-- card-header -->
+              <div class="card-body pd-0">
+                <div class="table-responsive">
+                  <table class="table mg-b-0">
+                    <thead>
+                      <tr>
+                        <th class="wd-35p">Name</th>
+                        <th class="wd-15p">No. of Wins</th>
+                        <th class="wd-25p">Win Rate</th>
+                        <th class="wd-25p">Won Revenue ($)</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <div class="avatar avatar-xs"><span class="avatar-initial rounded-circle bg-secondary">s</span></div>
+                            <span class="tx-medium mg-l-10">Socrates Itumay</span>
+                          </div>
+                        </td>
+                        <td>58</td>
+                        <td>
+                          <div class="rating-stars">
+                            <span>96%</span>
+                            <div class="stars">
+                              <i data-feather="star" class="active"></i>
+                              <i data-feather="star" class="active"></i>
+                              <i data-feather="star" class="active"></i>
+                              <i data-feather="star" class="active"></i>
+                              <i data-feather="star" class="active"></i>
+                            </div>
+                          </div><!-- rating-stars -->
+                        </td>
+                        <td>302, 422.50</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <div class="avatar avatar-xs"><img src="https://via.placeholder.com/500/637382/fff" class="rounded-circle" alt=""></div>
+                            <span class="tx-medium mg-l-10">Dianne Aceron</span>
+                          </div>
+                        </td>
+                        <td>49</td>
+                        <td>
+                          <div class="rating-stars">
+                            <span>85%</span>
+                            <div class="stars">
+                              <i data-feather="star" class="active"></i>
+                              <i data-feather="star" class="active"></i>
+                              <i data-feather="star" class="active"></i>
+                              <i data-feather="star" class="active"></i>
+                              <i data-feather="star" class="active"></i>
+                            </div>
+                          </div><!-- rating-stars -->
+                        </td>
+                        <td>264, 090.00</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <div class="avatar avatar-xs"><img src="https://via.placeholder.com/500/637382/fff" class="rounded-circle" alt=""></div>
+                            <span class="tx-medium mg-l-10">Katherine Movera</span>
+                          </div>
+                        </td>
+                        <td>40</td>
+                        <td>
+                          <div class="rating-stars">
+                            <span>79%</span>
+                            <div class="stars">
+                              <i data-feather="star" class="active"></i>
+                              <i data-feather="star" class="active"></i>
+                              <i data-feather="star" class="active"></i>
+                              <i data-feather="star" class="active"></i>
+                              <i data-feather="star"></i>
+                            </div>
+                          </div><!-- rating-stars -->
+                        </td>
+                        <td>238, 720.80</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <div class="avatar avatar-xs"><span class="avatar-initial rounded-circle bg-primary">r</span></div>
+                            <span class="tx-medium mg-l-10">Reynante Labares</span>
+                          </div>
+                        </td>
+                        <td>38</td>
+                        <td>
+                          <div class="rating-stars">
+                            <span>76%</span>
+                            <div class="stars">
+                              <i data-feather="star" class="active"></i>
+                              <i data-feather="star" class="active"></i>
+                              <i data-feather="star" class="active"></i>
+                              <i data-feather="star" class="active"></i>
+                              <i data-feather="star"></i>
+                            </div>
+                          </div><!-- rating-stars -->
+                        </td>
+                        <td>227, 063.20</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <div class="avatar avatar-xs"><span class="avatar-initial rounded-circle bg-dark">d</span></div>
+                            <span class="tx-medium mg-l-10">Dexter Dela Cruz</span>
+                          </div>
+                        </td>
+                        <td>26</td>
+                        <td>
+                          <div class="rating-stars">
+                            <span>68%</span>
+                            <div class="stars">
+                              <i data-feather="star" class="active"></i>
+                              <i data-feather="star" class="active"></i>
+                              <i data-feather="star" class="active"></i>
+                              <i data-feather="star"></i>
+                              <i data-feather="star"></i>
+                            </div>
+                          </div><!-- rating-stars -->
+                        </td>
+                        <td>202, 918.00</td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <div class="d-flex align-items-center">
+                            <div class="avatar avatar-xs"><span class="avatar-initial rounded-circle bg-purple">j</span></div>
+                            <span class="tx-medium mg-l-10">Johnwyne Mendez</span>
+                          </div>
+                        </td>
+                        <td>26</td>
+                        <td>
+                          <div class="rating-stars">
+                            <span>68%</span>
+                            <div class="stars">
+                              <i data-feather="star" class="active"></i>
+                              <i data-feather="star" class="active"></i>
+                              <i data-feather="star" class="active"></i>
+                              <i data-feather="star"></i>
+                              <i data-feather="star"></i>
+                            </div>
+                          </div><!-- rating-stars -->
+                        </td>
+                        <td>202, 918.00</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div><!-- table-responsive -->
+              </div><!-- card-body -->
+              <div class="card-footer bg-transparent">
+                <a href="">Show More 5 <i class="icon ion-chevron-right"></i><i class="icon ion-chevron-right"></i></a>
+              </div><!-- card-footer -->
+            </div><!-- card -->
+          </div><!-- col -->
+          <div class="col-md-12 col-xl-5 mg-t-15 mg-sm-t-20 order-md-3 order-lg-0">
+            <div class="card card-hover card-transactions">
+              <div class="card-header bg-transparent">
+                <h6 class="card-title mg-b-0">Recent Transactions</h6>
+                <nav class="nav nav-card-icon">
+                  <a href=""><i data-feather="download"></i></a>
+                  <a href=""><i data-feather="printer"></i></a>
+                  <a href=""><i data-feather="more-horizontal"></i></a>
+                </nav>
+              </div><!-- card-header -->
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <div class="avatar"><span class="avatar-initial rounded-circle bg-primary-light"><i data-feather="shopping-bag" class="svg-18"></i></span></div>
+                  <div class="mg-l-10 mg-sm-l-15">
+                    <h6>Purchase Receipt - D107046</h6>
+                    <small>Today, August 01, 2019</small>
+                  </div>
+                  <div class="mg-l-auto tx-right">
+                    <h6>-$69.99</h6>
+                    <small class="d-none d-sm-inline">Paid via PayPal</small>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="avatar"><span class="avatar-initial rounded-circle bg-teal-light"><i data-feather="package" class="svg-18"></i></span></div>
+                  <div class="mg-l-10 mg-sm-l-15">
+                    <h6>Purchase Shipment - D108015</h6>
+                    <small>Today, August 01, 2019</small>
+                  </div>
+                  <div class="mg-l-auto tx-right">
+                    <h6>+$310.50</h6>
+                    <small class="d-none d-sm-inline">Bank transfer</small>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="avatar"><span class="avatar-initial rounded-circle bg-pink-light"><i data-feather="share" class="svg-18"></i></span></div>
+                  <div class="mg-l-10 mg-sm-l-15">
+                    <h6>Purchase Receipt - D107046</h6>
+                    <small>Yesterday, July 31, 2019</small>
+                  </div>
+                  <div class="mg-l-auto tx-right">
+                    <h6>-$69.99</h6>
+                    <small class="d-none d-sm-inline">Paid via card</small>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="avatar"><span class="avatar-initial rounded-circle bg-pink-light"><i data-feather="share" class="svg-18"></i></span></div>
+                  <div class="mg-l-10 mg-sm-l-15">
+                    <h6>Purchase Receipt - D107046</h6>
+                    <small>Monday, July 27, 2019</small>
+                  </div>
+                  <div class="mg-l-auto tx-right">
+                    <h6>-$69.99</h6>
+                    <small class="d-none d-sm-inline">Paid via card</small>
+                  </div>
+                </li>
+                <li class="list-group-item">
+                  <div class="avatar"><span class="avatar-initial rounded-circle bg-teal-light"><i data-feather="package" class="svg-18"></i></span></div>
+                  <div class="mg-l-10 mg-sm-l-15">
+                    <h6>Purchase Shipment - D108015</h6>
+                    <small>Saturday, July 20, 2019</small>
+                  </div>
+                  <div class="mg-l-auto tx-right">
+                    <h6>+$310.50</h6>
+                    <small class="d-none d-sm-inline">Bank transfer</small>
+                  </div>
+                </li>
+              </ul><!-- list-group -->
+              <div class="card-footer bg-transparent">
+                <a href="">View All Transactions<i class="icon ion-chevron-right"></i><i class="icon ion-chevron-right"></i></a>
+              </div><!-- card-footer -->
+            </div><!-- card -->
+          </div><!-- col -->
+          <div class="col-md-6 mg-t-15 mg-sm-t-20">
+            <div class="card card-hover card-chart-five">
+              <div class="card-body">
+                <div class="row no-gutters">
+                  <div class="col-sm order-1 order-sm-0 mg-t-20 mg-sm-t-0">
+                    <div class="chart-legend">
+                      <label><span class="bg-purple"></span> Offline</label>
+                      <label><span class="bg-blue"></span> Online</label>
+                    </div>
+                    <div class="flot-wrapper">
+                      <div id="flotChart8" class="flot-chart"></div>
+                    </div>
+                  </div>
+                  <div class="col-sm">
+                    <div class="pd-sm-l-20 pd-lg-l-25">
+                      <div class="d-flex align-items-baseline mg-b-5">
+                        <h1 class="tx-20 tx-sm-32 tx-numeric tx-color-01 tx-normal mg-b-0">844</h1>
+                        <span class="d-flex align-items-center tx-success mg-l-2 tx-13"><i data-feather="arrow-up" class="svg-14 stroke-25"></i>1.2%</span>
+                      </div>
+                      <h6 class="tx-12 tx-sm-13 tx-color-02">Recent Orders</h6>
+                      <p class="tx-11 tx-sm-12 mg-b-0 tx-color-04">Habi tasse labo rum purus, vesti bulum at<span class="d-none d-sm-inline"> vivamus tempor port titor vulpu</span>... <a href="">Learn More</a></p>
+                    </div>
+                  </div>
+                </div><!-- row -->
+              </div>
+            </div><!-- card -->
+          </div><!-- col -->
+          <div class="col-md-6 mg-t-15 mg-sm-t-20">
+            <div class="card card-hover card-chart-five">
+              <div class="card-body">
+                <div class="row no-gutters">
+                  <div class="col-sm-6 order-1 order-sm-0 mg-t-20 mg-sm-t-0">
+                    <div class="chart-legend">
+                      <label><span class="bg-primary"></span> Offline</label>
+                      <label><span class="bg-pink"></span> Online</label>
+                    </div>
+                    <div class="flot-wrapper">
+                      <div id="flotChart9" class="flot-chart"></div>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="pd-sm-l-20 pd-lg-l-25">
+                      <div class="d-flex align-items-baseline mg-b-5">
+                        <h1 class="tx-20 tx-sm-32 tx-numeric tx-color-01 tx-normal mg-b-0">2,804</h1>
+                        <span class="d-flex align-items-center tx-danger mg-l-2 tx-13"><i data-feather="arrow-down" class="svg-14 stroke-25"></i>0.9%</span>
+                      </div>
+                      <h6 class="tx-12 tx-sm-13 tx-color-02">Complete Orders</h6>
+                      <p class="tx-12 mg-b-0 tx-color-04">Habi tasse labo rum purus, vesti bulum<span class="d-none d-sm-inline"> at vivamus tempor port titor vulpu</span>... <a href="">Learn More</a></p>
+                    </div>
+                  </div>
+                </div><!-- row -->
+              </div>
+            </div><!-- card -->
+          </div><!-- col -->
+        </div><!-- row -->
+
+        <div class="row row-sm mg-t-15 mg-sm-t-20">
+          <div class="col-xl-8">
+            <div class="row row-sm">
+              <div class="col-sm-6">
+                <div class="card card-hover card-profile-visits">
+                  <div>
+                    <p class="content-label mg-b-5 tx-pink">Profile Visits</p>
+                    <div class="d-flex align-items-end">
+                      <h4 class="tx-color-01 tx-numeric tx-normal mg-b-0">361,782</h4>
+                      <span class="d-flex align-items-center tx-success mg-l-2 tx-13"><i data-feather="arrow-up" class="svg-14 stroke-25"></i>1.2%</span>
+                    </div>
+                  </div>
+                  <div class="flot-wrapper">
+                    <div id="flotChart10" class="flot-chart"></div>
+                  </div>
+                </div><!-- card -->
+              </div><!-- col -->
+              <div class="col-sm-6 mg-t-15 mg-sm-t-0">
+                <div class="card card-hover card-profile-visits">
+                  <div>
+                    <p class="content-label mg-b-5 tx-orange">Unique Visits</p>
+                    <div class="d-flex align-items-end">
+                      <h4 class="tx-color-01 tx-numeric tx-normal mg-b-0">102,004</h4>
+                      <span class="d-flex align-items-center tx-danger mg-l-2 tx-13"><i data-feather="arrow-down" class="svg-14 stroke-25"></i>0.4%</span>
+                    </div>
+                  </div>
+                  <div class="flot-wrapper">
+                    <div id="flotChart11" class="flot-chart"></div>
+                  </div>
+                </div><!-- card -->
+              </div><!-- col -->
+              <div class="col-12 mg-t-15 mg-sm-t-20">
+                <div class="card card-hover card-cash-flow">
+                  <div class="card-body pd-0">
+                    <div class="row no-gutters">
+                      <div class="col-sm-5 col-md-4">
+                        <div class="pd-y-15 pd-sm-y-20 pd-l-15 pd-sm-l-20 ht-100p">
+                          <h6 class="tx-color-01 mg-b-3">Cash Flow Summary</h6>
+                          <p class="tx-11 tx-color-03">Jan 01, 2019 - Dec 31, 2019</p>
+
+                          <label class="tx-color-03 tx-12 mg-b-5">Total Income</label>
+                          <h4 class="card-value">9,174,700<small>usd</small></h4>
+                          <span class="tx-12 tx-color-04"><span class="tx-success"><i class="icon ion-android-arrow-up"></i> 1.5%</span> higher from last year</span>
+
+                          <hr class="mg-y-10 op-0">
+
+                          <label class="tx-color-03 tx-12 mg-b-5">Total Expenses</label>
+                          <h4 class="card-value">2,628,740<small>usd</small></h4>
+                          <span class="tx-12 tx-color-04"><span class="tx-danger"><i class="icon ion-android-arrow-up"></i> 0.9%</span> higher from last year</span>
+                        </div>
+                      </div><!-- col -->
+                      <div class="col-sm-7 col-md-8">
+                        <div class="pd-15 pd-t-0 pd-sm-20 bd-sm-l">
+                          <div class="d-flex align-items-center justify-content-between mg-b-15">
+                            <div class="chart-legend">
+                              <label><span class="bg-green"></span> Income</label>
+                              <label><span class="bg-gray-400"></span> Expenses</label>
+                            </div>
+                            <nav class="nav nav-card-icon">
+                              <a href=""><i data-feather="help-circle"></i></a>
+                              <a href=""><i data-feather="more-horizontal"></i></a>
+                            </nav>
+                          </div>
+                          <div id="flotChart12" class="flot-chart"></div>
+                        </div>
+                      </div><!-- col -->
+                    </div><!-- row -->
+                  </div><!-- card-body -->
+                </div><!-- card -->
+              </div><!-- col -->
+            </div><!-- row -->
+          </div><!-- col -->
+          <div class="col-sm-6 col-xl-4 mg-t-15 mg-sm-t-20 mg-xl-t-0">
+            <div class="card card-hover card-customer-score">
+              <div class="card-header bg-transparent">
+                <h6 class="card-title mg-b-0">Customer Satisfaction</h6>
+                <nav class="nav nav-card-icon">
+                  <a href=""><i data-feather="download"></i></a>
+                  <a href=""><i data-feather="printer"></i></a>
+                  <a href=""><i data-feather="more-horizontal"></i></a>
+                </nav>
+              </div><!-- card-header -->
+              <div class="card-body pd-t-10">
+                <h1 class="card-value mg-b-5">9.7<small class="tx-danger"><i class="icon ion-android-arrow-down"></i> 2.8%</small></h1>
+                <p class="tx-12 tx-color-03">Performance Score</p>
+                <div class="progress bg-transparent ht-10 mg-b-15">
+                  <div class="progress-bar bg-blue wd-50p" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar bg-green wd-25p bd-l bd-white" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar bg-orange wd-5p bd-l bd-white" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar bg-pink wd-5p bd-l bd-white" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar bg-brand-02 wd-10p bd-l bd-white" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                  <div class="progress-bar bg-primary wd-5p bd-l bd-white" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <table class="table-card">
+                  <tbody>
+                    <tr>
+                      <td><div class="bd-blue"></div></td>
+                      <td class="tx-medium">Excellent</td>
+                      <td class="text-right">3,007</td>
+                      <td class="text-right">50%</td>
+                    </tr>
+                    <tr>
+                      <td><div class="bd-green"></div></td>
+                      <td class="tx-medium">Very Good</td>
+                      <td class="text-right">1,674</td>
+                      <td class="text-right">25%</td>
+                    </tr>
+                    <tr>
+                      <td><div class="bd-orange"></div></td>
+                      <td class="tx-medium">Good</td>
+                      <td class="text-right">125</td>
+                      <td class="text-right">6%</td>
+                    </tr>
+                    <tr>
+                      <td><div class="bd-pink"></div></td>
+                      <td class="tx-medium">Fair</td>
+                      <td class="text-right">98</td>
+                      <td class="text-right">5%</td>
+                    </tr>
+                    <tr>
+                      <td><div class="bd-brand-02"></div></td>
+                      <td class="tx-medium">Poor</td>
+                      <td class="text-right">512</td>
+                      <td class="text-right">10%</td>
+                    </tr>
+                    <tr>
+                      <td><div class="bd-brand-01"></div></td>
+                      <td class="tx-medium">Very Poor</td>
+                      <td class="text-right">81</td>
+                      <td class="text-right">4%</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div><!-- card -->
+          </div><!-- col -->
+          <div class="col-sm-6 col-xl-4 mg-t-15 mg-sm-t-20">
+            <div class="card card-hover card-pie-one">
+              <div class="card-header bg-transparent">
+                <h6 class="card-title mg-b-0">Campaign By Channel</h6>
+                <nav class="nav nav-card-icon">
+                  <a href=""><i data-feather="help-circle"></i></a>
+                  <a href=""><i data-feather="more-horizontal"></i></a>
+                </nav>
+              </div><!-- card-header -->
+              <div class="card-body">
+                <div class="chart-wrapper mg-b-25"><canvas id="chartDonut"></canvas></div>
+                <div class="row row-sm">
+                  <div class="col-6">
+                    <p class="tx-12 mg-b-5">Organic Search</p>
+                    <h4><span>3,104</span> <small>25%</small></h4>
+                    <div class="progress">
+                      <div class="progress-bar wd-25p" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div><!-- col -->
+                  <div class="col-6">
+                    <p class="tx-12 mg-b-5">Email Campaign</p>
+                    <h4><span>2,679</span> <small>20%</small></h4>
+                    <div class="progress">
+                      <div class="progress-bar bg-blue wd-20p" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div><!-- col -->
+                  <div class="col-6 mg-t-20">
+                    <p class="tx-12 mg-b-5">Referral Links</p>
+                    <h4><span>4,236</span> <small>30%</small></h4>
+                    <div class="progress">
+                      <div class="progress-bar bg-green wd-30p" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div><!-- col -->
+                  <div class="col-6 mg-t-20">
+                    <p class="tx-12 mg-b-5">Social Media</p>
+                    <h4><span>3,068</span> <small>27%</small></h4>
+                    <div class="progress">
+                      <div class="progress-bar bg-pink wd-25p" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                  </div><!-- col -->
+                </div><!-- row -->
+              </div>
+            </div><!-- card -->
+          </div><!-- col -->
+          <div class="col-sm-6 col-xl-4 mg-t-15 mg-sm-t-20">
+            <div class="card card-hover card-pie-two">
+              <div class="card-header bg-transparent">
+                <h6 class="card-title mg-b-0">Expenses</h6>
+                <nav class="nav nav-time-range">
+                  <a href="">D</a>
+                  <a href="">W</a>
+                  <a href="" class="active">M</a>
+                  <a href="">Y</a>
+                </nav>
+              </div><!-- card-header -->
+              <div class="card-body">
+                <h3 class="card-value"><span>$</span>29,060<small>.00</small></h3>
+                <p class="tx-12 mg-b-10">as of this month</p>
+
+                <div class="row row-xs align-items-center mg-b-20">
+                  <div class="col-6">
+                    <ul class="list-unstyled mg-b-0">
+                      <li>
+                        <h6 class="tx-color-01 tx-numeric tx-normal mg-b-5">$3,011.20 <span class="bg-blue"></span></h6>
+                        <p class="tx-11 tx-color-04 mg-b-0">Personal expense</p>
+                      </li>
+                      <li>
+                        <h6 class="tx-color-01 tx-numeric tx-normal mg-b-5">$4,870.80 <span class="bg-green"></span></h6>
+                        <p class="tx-11 tx-color-04 mg-b-0">Medical expense</p>
+                      </li>
+                      <li>
+                        <h6 class="tx-color-01 tx-numeric tx-normal mg-b-5">$10,107.00 <span class="bg-purple"></span></h6>
+                        <p class="tx-11 tx-color-04 mg-b-0">Other expense</p>
+                      </li>
+                    </ul>
+                  </div><!-- col -->
+                  <div class="col-6">
+                    <div class="chart-wrapper"><canvas id="chartDonut2"></canvas></div>
+                  </div><!-- col -->
+                </div><!-- row -->
+
+                <label class="content-label mg-b-5">Recent Transactions</label>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">
+                    <div>
+                      <h6>School supplies</h6>
+                      <span>Today, Jul 28, 2019</span>
+                    </div>
+                    <div class="tx-right">
+                      <h6>$50.50</h6>
+                      <span class="badge bg-purple tx-white">Other</span>
+                    </div>
+                  </li>
+                  <li class="list-group-item">
+                    <div>
+                      <h6>Paracetamol</h6>
+                      <span>Today, Jul 28, 2019</span>
+                    </div>
+                    <div>
+                      <h6>$78.30</h6>
+                      <span class="badge bg-green tx-white">Medical</span>
+                    </div>
+                  </li>
+                </ul>
+                <a href="" class="link-02 tx-12">View All Transactions <i class="icon ion-android-arrow-forward"></i></a>
+              </div>
+            </div><!-- card -->
+          </div><!-- col -->
+          <div class="col-sm-6 col-xl-4 mg-t-15 mg-sm-t-20">
+            <div class="card card-hover card-overall-rating">
+              <div class="card-header bg-transparent pd-t-15 pd-r-15 pd-b-2 bd-b-0">
+                <h6 class="card-title mg-b-0">Overall Rating</h6>
+                <nav class="nav nav-card-icon">
+                  <a href=""><i data-feather="help-circle"></i></a>
+                  <a href=""><i data-feather="more-vertical"></i></a>
+                </nav>
+              </div><!-- card-header -->
+              <div class="card-body pd-t-5 pd-b-15">
+                <div class="d-flex align-items-end mg-b-5">
+                  <h1 class="card-value">4.6</h1>
+                  <div class="stars mg-l-5">
+                    <i class="icon ion-ios-star active"></i>
+                    <i class="icon ion-ios-star active"></i>
+                    <i class="icon ion-ios-star active"></i>
+                    <i class="icon ion-ios-star active"></i>
+                    <i class="icon ion-ios-star"></i>
+                  </div>
+                </div>
+                <p class="tx-11 tx-color-03">Measures the quality or your support team’s efforts.</p>
+
+                <ul class="list-group list-group-flush mg-b-20">
+                  <li class="list-group-item">
+                    <div>5.0</div>
+                    <div class="stars">
+                      <i class="icon ion-ios-star active"></i>
+                      <i class="icon ion-ios-star active"></i>
+                      <i class="icon ion-ios-star active"></i>
+                      <i class="icon ion-ios-star active"></i>
+                      <i class="icon ion-ios-star active"></i>
+                    </div>
+                    <div>4,230</div>
+                    <div>58%</div>
+                  </li>
+                  <li class="list-group-item">
+                    <div>4.0</div>
+                    <div class="stars">
+                      <i class="icon ion-ios-star active"></i>
+                      <i class="icon ion-ios-star active"></i>
+                      <i class="icon ion-ios-star active"></i>
+                      <i class="icon ion-ios-star active"></i>
+                      <i class="icon ion-ios-star"></i>
+                    </div>
+                    <div>2,416</div>
+                    <div>24%</div>
+                  </li>
+                  <li class="list-group-item">
+                    <div>3.0</div>
+                    <div class="stars">
+                      <i class="icon ion-ios-star active"></i>
+                      <i class="icon ion-ios-star active"></i>
+                      <i class="icon ion-ios-star active"></i>
+                      <i class="icon ion-ios-star"></i>
+                      <i class="icon ion-ios-star"></i>
+                    </div>
+                    <div>1,080</div>
+                    <div>16%</div>
+                  </li>
+                  <li class="list-group-item">
+                    <div>2.0</div>
+                    <div class="stars">
+                      <i class="icon ion-ios-star active"></i>
+                      <i class="icon ion-ios-star active"></i>
+                      <i class="icon ion-ios-star"></i>
+                      <i class="icon ion-ios-star"></i>
+                      <i class="icon ion-ios-star"></i>
+                    </div>
+                    <div>885</div>
+                    <div>8%</div>
+                  </li>
+                  <li class="list-group-item">
+                    <div>1.0</div>
+                    <div class="stars">
+                      <i class="icon ion-ios-star active"></i>
+                      <i class="icon ion-ios-star"></i>
+                      <i class="icon ion-ios-star"></i>
+                      <i class="icon ion-ios-star"></i>
+                      <i class="icon ion-ios-star"></i>
+                    </div>
+                    <div>546</div>
+                    <div>12%</div>
+                  </li>
+                </ul>
+
+                <div class="d-flex align-items-center justify-content-between mg-b-15">
+                  <label class="content-label mg-b-0">Reviews</label>
+                  <label class="tx-11 mg-b-0">Sort: <a href="" class="link-03">Most Recent <i class="icon ion-ios-arrow-down"></i></a></label>
+                </div>
+                <div class="review-item mg-b-15">
+                  <div class="media mg-b-10">
+                    <div class="avatar avatar-sm"><span class="avatar-initial rounded-circle bg-green">d</span></div>
+                    <div class="media-body mg-l-10">
+                      <h6 class="tx-13 mg-b-2">Dyanne Rose Aceron</h6>
+                      <div class="stars">
+                        <i class="icon ion-ios-star active"></i>
+                        <i class="icon ion-ios-star active"></i>
+                        <i class="icon ion-ios-star active"></i>
+                        <i class="icon ion-ios-star"></i>
+                        <i class="icon ion-ios-star"></i>
+                        <span class="tx-color-04 tx-11 mg-l-5">5 hours ago</span>
+                      </div>
+                    </div><!-- media-body -->
+                  </div><!-- media -->
+                  <p class="tx-12 tx-color-03 mg-b-0">Sed ut perspiciatis unde omnis iste natus error sit tatem accu santium remque...<a href="">Read more</a></p>
+                </div>
+                <a href="" class="tx-12 link-03 d-block tx-center bd-t pd-t-10">View All Reviews <i class="icon ion-android-arrow-forward"></i></a>
+              </div>
+            </div><!-- card -->
+          </div><!-- col -->
+        </div><!-- row -->
+      </div><!-- content-body -->
+    </div><!-- content -->
 
 @endsection

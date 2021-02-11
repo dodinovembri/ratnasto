@@ -7,15 +7,12 @@
         <title>Login | Administrator</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="Ratna Store Administrator" name="description" />
-        <!-- App favicon -->
         <link rel="shortcut icon" href="{{ asset('backend/images/favicon.ico') }}">
 
-        <!-- Bootstrap Css -->
-        <link href="{{ asset('backend/css/bootstrap.min.css') }}" id="bootstrap-style" rel="stylesheet" type="text/css" />
-        <!-- Icons Css -->
-        <link href="{{ asset('backend/css/icons.min.css') }}" rel="stylesheet" type="text/css" />
-        <!-- App Css-->
-        <link href="{{ asset('backend/css/app.min.css') }}" id="app-style" rel="stylesheet" type="text/css" />
+        <!-- For theme 1 -->
+        <link href="{{ asset('backend/auth/theme1/css/bootstrap.min.css') }}" id="bootstrap-style" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('backend/auth/theme1/css/icons.min.css') }}" rel="stylesheet" type="text/css" />
+        <link href="{{ asset('backend/auth/theme1/css/app.min.css') }}" id="app-style" rel="stylesheet" type="text/css" />
 
     </head>
 
@@ -23,17 +20,14 @@
 
     @yield('content')
 
-     <!-- JAVASCRIPT -->
-        <script src="{{ asset('backend/libs/jquery/jquery.min.js') }}"></script>
-        <script src="{{ asset('backend/libs/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-        <script src="{{ asset('backend/libs/metismenu/metisMenu.min.js') }}"></script>
-        <script src="{{ asset('backend/libs/simplebar/simplebar.min.js') }}"></script>
-        <script src="{{ asset('backend/libs/node-waves/waves.min.js') }}"></script>
-        
-        <!-- App js -->
-        <script src="{{ asset('backend/js/app.js') }}"></script>
+        <!-- For theme 1 -->
+        <script src="{{ asset('backend/auth/theme1/libs/jquery/jquery.min.js') }}"></script>
+        <script src="{{ asset('backend/auth/theme1/libs/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+        <script src="{{ asset('backend/auth/theme1/libs/metismenu/metisMenu.min.js') }}"></script>
+        <script src="{{ asset('backend/auth/theme1/libs/simplebar/simplebar.min.js') }}"></script>
+        <script src="{{ asset('backend/auth/theme1/libs/node-waves/waves.min.js') }}"></script>
+        <script src="{{ asset('backend/auth/theme1/js/app.js') }}"></script>
+
     </body>
 
-</html>
-</body>
 </html>
