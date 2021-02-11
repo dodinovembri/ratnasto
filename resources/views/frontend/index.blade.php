@@ -28,17 +28,17 @@
                         </div>
                         <!-- End of DropDown Menu -->
                         <div class="dropdown">
-                            <a href="#language"><img src="{{ asset('frontend/images/flags/en.png') }}" alt="USA Flag"
+                            <a href="#language"><img src="{{ asset('frontend/theme1/images/flags/en.png') }}" alt="USA Flag"
                                     class="dropdown-image" />ENG</a>
                             <ul class="dropdown-box">
                                 <li>
                                     <a href="#USD">
-                                        <img src="{{ asset('frontend/images/flags/en.png') }}" alt="USA Flag" class="dropdown-image" />ENG
+                                        <img src="{{ asset('frontend/theme1/images/flags/en.png') }}" alt="USA Flag" class="dropdown-image" />ENG
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#EUR">
-                                        <img src="{{ asset('frontend/images/flags/fr.png') }}" alt="France Flag" class="dropdown-image" />FRH
+                                        <img src="{{ asset('frontend/theme1/images/flags/fr.png') }}" alt="France Flag" class="dropdown-image" />FRH
                                     </a>
                                 </li>
                             </ul>
@@ -69,7 +69,7 @@
                     </div>
                     <div class="header-center">
                         <a href="demo1.html" class="logo">
-                            <img src="{{ asset('frontend/images/logo.png') }}" alt="logo" width="163" height="39" />
+                            <img src="{{ asset('frontend/theme1/images/logo.png') }}" alt="logo" width="163" height="39" />
                         </a>
                         <!-- End of Logo -->
                         <nav class="main-nav">
@@ -113,7 +113,7 @@
                                             <div
                                                 class="col-6 col-sm-4 col-md-3 col-lg-4 menu-banner menu-banner1 banner banner-fixed">
                                                 <figure>
-                                                    <img src="{{ asset('frontend/images/menu/banner-1.jpg') }}" alt="Menu banner" width="221"
+                                                    <img src="{{ asset('frontend/theme1/images/menu/banner-1.jpg') }}" alt="Menu banner" width="221"
                                                         height="330" />
                                                 </figure>
                                                 <div class="banner-content y-50">
@@ -167,7 +167,7 @@
                                             <div
                                                 class="col-6 col-sm-4 col-md-3 col-lg-4 menu-banner menu-banner2 banner banner-fixed">
                                                 <figure>
-                                                    <img src="{{ asset('frontend/images/menu/banner-2.jpg') }}" alt="Menu banner" width="221"
+                                                    <img src="{{ asset('frontend/theme1/images/menu/banner-2.jpg') }}" alt="Menu banner" width="221"
                                                         height="330" />
                                                 </figure>
                                                 <div class="banner-content x-50 text-center">
@@ -299,7 +299,7 @@
                                         </div>
                                         <figure class="product-media">
                                             <a href="#">
-                                                <img src="{{ asset('frontend/images/cart/product-1.jpg') }}" alt="product" width="90"
+                                                <img src="{{ asset('frontend/theme1/images/cart/product-1.jpg') }}" alt="product" width="90"
                                                     height="90" />
                                             </a>
                                             <button class="btn btn-link btn-close">
@@ -318,7 +318,7 @@
                                         </div>
                                         <figure class="product-media">
                                             <a href="#">
-                                                <img src="{{ asset('frontend/images/cart/product-2.jpg') }}" alt="product" width="90"
+                                                <img src="{{ asset('frontend/theme1/images/cart/product-2.jpg') }}" alt="product" width="90"
                                                     height="90" />
                                             </a>
                                             <button class="btn btn-link btn-close">
@@ -375,7 +375,7 @@
                         <div class="banner banner-fixed intro-slide1" style="background-color: #dddee0;">
                             <figure>
                                 <div class="slide-effect">
-                                    <img src="{{ asset('frontend/images/demos/demo1/slides/Slider1_women.png') }}"
+                                    <img src="{{ asset('frontend/theme1/images/demos/demo1/slides/Slider1_women.png') }}"
                                         class="slide-animate intro-slide1-img"
                                         data-animation-options="{'name': 'fadeInLeftShorter', 'duration': '1.2s', 'delay': '.5s'}"
                                         alt="intro-banner" width="1180" height="630" />
@@ -437,7 +437,7 @@
                         </div>
                         <div class="banner banner-fixed intro-slide2" style="background-color: #dddee0;">
                             <figure>
-                                <img src="{{ asset('frontend/images/demos/demo1/slides/slide2.jpg') }}" alt="intro-banner" width="1903"
+                                <img src="{{ asset('frontend/theme1/images/demos/demo1/slides/slide2.jpg') }}" alt="intro-banner" width="1903"
                                     height="630" />
                             </figure>
                             <div class="container">
@@ -460,7 +460,7 @@
                         </div>
                         <div class="banner banner-fixed video-banner intro-slide3" style="background-color: #dddee0;">
                             <figure>
-                                <video src="{{ asset('frontend/video/memory-of-a-woman.mp4') }}" width="1903" height="630"></video>
+                                <video src="{{ asset('frontend/theme1/video/memory-of-a-woman.mp4') }}" width="1903" height="630"></video>
                             </figure>
                             <div class="container">
                                 <div class="banner-content x-50 y-50 text-center">
@@ -555,7 +555,7 @@
                                     class="category category-default category-default-1 category-absolute overlay-zoom">
                                     <a href="#">
                                         <figure class="category-media">
-                                            <img src="{{ asset('frontend/images/demos/demo1/categories/category1.jpg') }}" alt="category"
+                                            <img src="{{ asset('frontend/theme1/images/demos/demo1/categories/category1.jpg') }}" alt="category"
                                                 width="280" height="280" />
                                         </figure>
                                     </a>
@@ -569,7 +569,7 @@
                                     class="category category-default category-default-1 category-absolute overlay-zoom">
                                     <a href="#">
                                         <figure class="category-media">
-                                            <img src="{{ asset('frontend/images/demos/demo1/categories/category2.jpg') }}" alt="category"
+                                            <img src="{{ asset('frontend/theme1/images/demos/demo1/categories/category2.jpg') }}" alt="category"
                                                 width="280" height="280" />
                                         </figure>
                                     </a>
@@ -583,7 +583,7 @@
                                     class="category category-default category-default-1 category-absolute overlay-zoom">
                                     <a href="#">
                                         <figure class="category-media">
-                                            <img src="{{ asset('frontend/images/demos/demo1/categories/category3.jpg') }}" alt="category"
+                                            <img src="{{ asset('frontend/theme1/images/demos/demo1/categories/category3.jpg') }}" alt="category"
                                                 width="280" height="280" />
                                         </figure>
                                     </a>
@@ -597,7 +597,7 @@
                                     class="category category-default category-default-1 category-absolute overlay-zoom">
                                     <a href="#">
                                         <figure class="category-media">
-                                            <img src="{{ asset('frontend/images/demos/demo1/categories/category4.jpg') }}" alt="category"
+                                            <img src="{{ asset('frontend/theme1/images/demos/demo1/categories/category4.jpg') }}" alt="category"
                                                 width="280" height="280" />
                                         </figure>
                                     </a>
@@ -637,7 +637,7 @@
                         <div class="product">
                             <figure class="product-media">
                                 <a href="product.html">
-                                    <img src="{{ asset('frontend/images/demos/demo1/products/product1.jpg') }}" alt="Blue Pinafore Denim Dress"
+                                    <img src="{{ asset('frontend/theme1/images/demos/demo1/products/product1.jpg') }}" alt="Blue Pinafore Denim Dress"
                                         width="280" height="315">
                                 </a>
                                 <div class="product-label-group">
@@ -675,7 +675,7 @@
                         <div class="product">
                             <figure class="product-media">
                                 <a href="product.html">
-                                    <img src="{{ asset('frontend/images/demos/demo1/products/product2.jpg') }}" alt="Blue Pinafore Denim Dress"
+                                    <img src="{{ asset('frontend/theme1/images/demos/demo1/products/product2.jpg') }}" alt="Blue Pinafore Denim Dress"
                                         width="280" height="315">
                                 </a>
                                 <div class="product-action-vertical">
@@ -710,7 +710,7 @@
                         <div class="product">
                             <figure class="product-media">
                                 <a href="product.html">
-                                    <img src="{{ asset('frontend/images/demos/demo1/products/product3.jpg') }}" alt="Blue Pinafore Denim Dress"
+                                    <img src="{{ asset('frontend/theme1/images/demos/demo1/products/product3.jpg') }}" alt="Blue Pinafore Denim Dress"
                                         width="280" height="315">
                                 </a>
 
@@ -749,7 +749,7 @@
                         <div class="product">
                             <figure class="product-media">
                                 <a href="product.html">
-                                    <img src="{{ asset('frontend/images/demos/demo1/products/product4.jpg') }}" alt="Blue Pinafore Denim Dress"
+                                    <img src="{{ asset('frontend/theme1/images/demos/demo1/products/product4.jpg') }}" alt="Blue Pinafore Denim Dress"
                                         width="280" height="315">
                                 </a>
                                 <div class="product-action-vertical">
@@ -784,7 +784,7 @@
                         <div class="product">
                             <figure class="product-media">
                                 <a href="product.html">
-                                    <img src="{{ asset('frontend/images/demos/demo1/products/product5.jpg') }}" alt="Blue Pinafore Denim Dress"
+                                    <img src="{{ asset('frontend/theme1/images/demos/demo1/products/product5.jpg') }}" alt="Blue Pinafore Denim Dress"
                                         width="280" height="315">
                                 </a>
                                 <div class="product-action-vertical">
@@ -819,7 +819,7 @@
                         <div class="product">
                             <figure class="product-media">
                                 <a href="product.html">
-                                    <img src="{{ asset('frontend/images/demos/demo1/products/product6.jpg') }}" alt="Blue Pinafore Denim Dress"
+                                    <img src="{{ asset('frontend/theme1/images/demos/demo1/products/product6.jpg') }}" alt="Blue Pinafore Denim Dress"
                                         width="280" height="315">
                                 </a>
                                 <div class="product-action-vertical">
@@ -862,7 +862,7 @@
                                 'delay': '.5s'
                             }">
                                 <figure>
-                                    <img src="{{ asset('frontend/images/demos/demo1/banners/banner1.jpg') }}" alt="banner" width="380"
+                                    <img src="{{ asset('frontend/theme1/images/demos/demo1/banners/banner1.jpg') }}" alt="banner" width="380"
                                         height="207" />
                                 </figure>
                                 <div class="banner-content">
@@ -883,7 +883,7 @@
                                 'delay': '.3s'
                             }">
                                 <figure>
-                                    <img src="{{ asset('frontend/images/demos/demo1/banners/banner2.jpg') }}" alt="banner" width="350"
+                                    <img src="{{ asset('frontend/theme1/images/demos/demo1/banners/banner2.jpg') }}" alt="banner" width="350"
                                         height="177" />
                                 </figure>
                                 <div class="banner-content">
@@ -899,7 +899,7 @@
                                 'delay': '.5s'
                             }">
                                 <figure>
-                                    <img src="{{ asset('frontend/images/demos/demo1/banners/banner3.jpg') }}" alt="banner" width="380"
+                                    <img src="{{ asset('frontend/theme1/images/demos/demo1/banners/banner3.jpg') }}" alt="banner" width="380"
                                         height="207" />
                                 </figure>
                                 <div class="banner-content">
@@ -945,7 +945,7 @@
                         <div class="product">
                             <figure class="product-media">
                                 <a href="product.html">
-                                    <img src="{{ asset('frontend/images/demos/demo1/products/product5.jpg') }}" alt="Blue Pinafore Denim Dress"
+                                    <img src="{{ asset('frontend/theme1/images/demos/demo1/products/product5.jpg') }}" alt="Blue Pinafore Denim Dress"
                                         width="220" height="245">
                                 </a>
                                 <div class="product-label-group">
@@ -983,7 +983,7 @@
                         <div class="product">
                             <figure class="product-media">
                                 <a href="product.html">
-                                    <img src="{{ asset('frontend/images/demos/demo1/products/product6.jpg') }}" alt="Blue Pinafore Denim Dress"
+                                    <img src="{{ asset('frontend/theme1/images/demos/demo1/products/product6.jpg') }}" alt="Blue Pinafore Denim Dress"
                                         width="220" height="245">
                                 </a>
                                 <div class="product-label-group">
@@ -1021,7 +1021,7 @@
                         <div class="product">
                             <figure class="product-media">
                                 <a href="product.html">
-                                    <img src="{{ asset('frontend/images/demos/demo1/products/product7.jpg') }}" alt="Blue Pinafore Denim Dress"
+                                    <img src="{{ asset('frontend/theme1/images/demos/demo1/products/product7.jpg') }}" alt="Blue Pinafore Denim Dress"
                                         width="220" height="245">
                                 </a>
                                 <div class="product-action-vertical">
@@ -1056,7 +1056,7 @@
                         <div class="product">
                             <figure class="product-media">
                                 <a href="product.html">
-                                    <img src="{{ asset('frontend/images/demos/demo1/products/product8.jpg') }}" alt="Blue Pinafore Denim Dress"
+                                    <img src="{{ asset('frontend/theme1/images/demos/demo1/products/product8.jpg') }}" alt="Blue Pinafore Denim Dress"
                                         width="220" height="245">
                                 </a>
                                 <div class="product-action-vertical">
@@ -1091,7 +1091,7 @@
                         <div class="product">
                             <figure class="product-media">
                                 <a href="product.html">
-                                    <img src="{{ asset('frontend/images/demos/demo1/products/product9.jpg') }}" alt="Blue Pinafore Denim Dress"
+                                    <img src="{{ asset('frontend/theme1/images/demos/demo1/products/product9.jpg') }}" alt="Blue Pinafore Denim Dress"
                                         width="220" height="245">
                                 </a>
                                 <div class="product-action-vertical">
@@ -1127,7 +1127,7 @@
                 </section>
 
                 <section class="banner parallax" data-option="{'offset': 0}"
-                    data-image-src="{{ asset('frontend/images/demos/demo1/parallax.jpg') }}" style="background-color: #44352d;">
+                    data-image-src="{{ asset('frontend/theme1/images/demos/demo1/parallax.jpg') }}" style="background-color: #44352d;">
                     <div class="container banner-content appear-animate text-center" data-animation-options="{
                         'name': 'blurIn',
                         'delay': '.3s'
@@ -1172,17 +1172,17 @@
                                 }
                             }
                         }">
-                            <figure><img src="{{ asset('frontend/images/brands/1.png') }}" alt="brand" width="180" height="100" />
+                            <figure><img src="{{ asset('frontend/theme1/images/brands/1.png') }}" alt="brand" width="180" height="100" />
                             </figure>
-                            <figure><img src="{{ asset('frontend/images/brands/2.png') }}" alt="brand" width="180" height="100" />
+                            <figure><img src="{{ asset('frontend/theme1/images/brands/2.png') }}" alt="brand" width="180" height="100" />
                             </figure>
-                            <figure><img src="{{ asset('frontend/images/brands/3.png') }}" alt="brand" width="180" height="100" />
+                            <figure><img src="{{ asset('frontend/theme1/images/brands/3.png') }}" alt="brand" width="180" height="100" />
                             </figure>
-                            <figure><img src="{{ asset('frontend/images/brands/4.png') }}" alt="brand" width="180" height="100" />
+                            <figure><img src="{{ asset('frontend/theme1/images/brands/4.png') }}" alt="brand" width="180" height="100" />
                             </figure>
-                            <figure><img src="{{ asset('frontend/images/brands/5.png') }}" alt="brand" width="180" height="100" />
+                            <figure><img src="{{ asset('frontend/theme1/images/brands/5.png') }}" alt="brand" width="180" height="100" />
                             </figure>
-                            <figure><img src="{{ asset('frontend/images/brands/6.png') }}" alt="brand" width="180" height="100" />
+                            <figure><img src="{{ asset('frontend/theme1/images/brands/6.png') }}" alt="brand" width="180" height="100" />
                             </figure>
                         </div>
                     </div>
@@ -1213,7 +1213,7 @@
                             }">
                                 <figure class="post-media">
                                     <a href="post-single.html">
-                                        <img src="{{ asset('frontend/images/demos/demo1/blog/post1.jpg') }}" width="280" height="206"
+                                        <img src="{{ asset('frontend/theme1/images/demos/demo1/blog/post1.jpg') }}" width="280" height="206"
                                             alt="post" />
                                     </a>
                                     <div class="post-calendar">
@@ -1237,7 +1237,7 @@
                             }">
                                 <figure class="post-media">
                                     <a href="post-single.html">
-                                        <img src="{{ asset('frontend/images/demos/demo1/blog/post2.jpg') }}" width="280" height="206"
+                                        <img src="{{ asset('frontend/theme1/images/demos/demo1/blog/post2.jpg') }}" width="280" height="206"
                                             alt="post" />
                                     </a>
                                     <div class="post-calendar">
@@ -1272,7 +1272,7 @@
                                         <div class="product product-list-sm">
                                             <figure class="product-media">
                                                 <a href="product.html">
-                                                    <img src="{{ asset('frontend/images/demos/demo1/products/product10.jpg') }}" alt="product"
+                                                    <img src="{{ asset('frontend/theme1/images/demos/demo1/products/product10.jpg') }}" alt="product"
                                                         width="100" height="100">
                                                 </a>
                                             </figure>
@@ -1295,7 +1295,7 @@
                                         <div class="product product-list-sm">
                                             <figure class="product-media">
                                                 <a href="product.html">
-                                                    <img src="{{ asset('frontend/images/demos/demo1/products/product11.jpg') }}" alt="product"
+                                                    <img src="{{ asset('frontend/theme1/images/demos/demo1/products/product11.jpg') }}" alt="product"
                                                         width="100" height="100">
                                                 </a>
                                             </figure>
@@ -1317,7 +1317,7 @@
                                         <div class="product product-list-sm">
                                             <figure class="product-media">
                                                 <a href="product.html">
-                                                    <img src="{{ asset('frontend/images/demos/demo1/products/product12.jpg') }}" alt="product"
+                                                    <img src="{{ asset('frontend/theme1/images/demos/demo1/products/product12.jpg') }}" alt="product"
                                                         width="100" height="100">
                                                 </a>
                                             </figure>
@@ -1349,7 +1349,7 @@
                                         <div class="product product-list-sm">
                                             <figure class="product-media">
                                                 <a href="product.html">
-                                                    <img src="{{ asset('frontend/ages/demos/demo1/products/product13.jpg') }}im" alt="product"
+                                                    <img src="{{ asset('frontend/theme1/ages/demos/demo1/products/product13.jpg') }}im" alt="product"
                                                         width="100" height="100">
                                                 </a>
                                             </figure>
@@ -1371,7 +1371,7 @@
                                         <div class="product product-list-sm">
                                             <figure class="product-media">
                                                 <a href="product.html">
-                                                    <img src="{{ asset('frontend/images/demos/demo1/products/product14.jpg') }}" alt="product"
+                                                    <img src="{{ asset('frontend/theme1/images/demos/demo1/products/product14.jpg') }}" alt="product"
                                                         width="100" height="100">
                                                 </a>
                                             </figure>
@@ -1393,7 +1393,7 @@
                                         <div class="product product-list-sm">
                                             <figure class="product-media">
                                                 <a href="product.html">
-                                                    <img src="{{ asset('frontend/images/demos/demo1/products/product15.jpg') }}" alt="product"
+                                                    <img src="{{ asset('frontend/theme1/images/demos/demo1/products/product15.jpg') }}" alt="product"
                                                         width="100" height="100">
                                                 </a>
                                             </figure>
@@ -1425,7 +1425,7 @@
                                         <div class="product product-list-sm">
                                             <figure class="product-media">
                                                 <a href="product.html">
-                                                    <img src="{{ asset('frontend/images/demos/demo1/products/product16.jpg') }}" alt="product"
+                                                    <img src="{{ asset('frontend/theme1/images/demos/demo1/products/product16.jpg') }}" alt="product"
                                                         width="100" height="100">
                                                 </a>
                                             </figure>
@@ -1447,7 +1447,7 @@
                                         <div class="product product-list-sm">
                                             <figure class="product-media">
                                                 <a href="product.html">
-                                                    <img src="{{ asset('frontend/images/demos/demo1/products/product17.jpg') }}" alt="product"
+                                                    <img src="{{ asset('frontend/theme1/images/demos/demo1/products/product17.jpg') }}" alt="product"
                                                         width="100" height="100">
                                                 </a>
                                             </figure>
@@ -1469,7 +1469,7 @@
                                         <div class="product product-list-sm">
                                             <figure class="product-media">
                                                 <a href="product.html">
-                                                    <img src="{{ asset('frontend/images/demos/demo1/products/product18.jpg') }}" alt="product"
+                                                    <img src="{{ asset('frontend/theme1/images/demos/demo1/products/product18.jpg') }}" alt="product"
                                                         width="100" height="100">
                                                 </a>
                                             </figure>
@@ -1501,7 +1501,7 @@
                                         <div class="product product-list-sm">
                                             <figure class="product-media">
                                                 <a href="product.html">
-                                                    <img src="{{ asset('frontend/images/demos/demo1/products/product19.jpg') }}" alt="product"
+                                                    <img src="{{ asset('frontend/theme1/images/demos/demo1/products/product19.jpg') }}" alt="product"
                                                         width="100" height="100">
                                                 </a>
                                             </figure>
@@ -1523,7 +1523,7 @@
                                         <div class="product product-list-sm">
                                             <figure class="product-media">
                                                 <a href="product.html">
-                                                    <img src="{{ asset('frontend/images/demos/demo1/products/product20.jpg') }}" alt="product"
+                                                    <img src="{{ asset('frontend/theme1/images/demos/demo1/products/product20.jpg') }}" alt="product"
                                                         width="100" height="100">
                                                 </a>
                                             </figure>
@@ -1545,7 +1545,7 @@
                                         <div class="product product-list-sm">
                                             <figure class="product-media">
                                                 <a href="product.html">
-                                                    <img src="{{ asset('frontend/images/demos/demo1/products/product21.jpg') }}" alt="product"
+                                                    <img src="{{ asset('frontend/theme1/images/demos/demo1/products/product21.jpg') }}" alt="product"
                                                         width="100" height="100">
                                                 </a>
                                             </figure>
@@ -1580,7 +1580,7 @@
                     <div class="row">
                         <div class="col-lg-3">
                             <a href="demo1.html" class="logo-footer">
-                                <img src="{{ asset('frontend/images/logo-footer.png') }}" alt="logo-footer" width="163" height="39" />
+                                <img src="{{ asset('frontend/theme1/images/logo-footer.png') }}" alt="logo-footer" width="163" height="39" />
                             </a>
                             <!-- End of FooterLogo -->
                         </div>
@@ -1661,28 +1661,28 @@
                                 <h4 class="widget-title">Instagram</h4>
                                 <figure class="widget-body row">
                                     <div class="col-3">
-                                        <img src="{{ asset('frontend/images/instagram/01.jpg') }}" alt="instagram 1" width="64" height="64" />
+                                        <img src="{{ asset('frontend/theme1/images/instagram/01.jpg') }}" alt="instagram 1" width="64" height="64" />
                                     </div>
                                     <div class="col-3">
-                                        <img src="{{ asset('frontend/images/instagram/02.jpg') }}" alt="instagram 2" width="64" height="64" />
+                                        <img src="{{ asset('frontend/theme1/images/instagram/02.jpg') }}" alt="instagram 2" width="64" height="64" />
                                     </div>
                                     <div class="col-3">
-                                        <img src="{{ asset('frontend/images/instagram/03.jpg') }}" alt="instagram 3" width="64" height="64" />
+                                        <img src="{{ asset('frontend/theme1/images/instagram/03.jpg') }}" alt="instagram 3" width="64" height="64" />
                                     </div>
                                     <div class="col-3">
-                                        <img src="{{ asset('frontend/images/instagram/04.jpg') }}" alt="instagram 4" width="64" height="64" />
+                                        <img src="{{ asset('frontend/theme1/images/instagram/04.jpg') }}" alt="instagram 4" width="64" height="64" />
                                     </div>
                                     <div class="col-3">
-                                        <img src="{{ asset('frontend/images/instagram/05.jpg') }}" alt="instagram 5" width="64" height="64" />
+                                        <img src="{{ asset('frontend/theme1/images/instagram/05.jpg') }}" alt="instagram 5" width="64" height="64" />
                                     </div>
                                     <div class="col-3">
-                                        <img src="{{ asset('frontend/images/instagram/06.jpg') }}" alt="instagram 6" width="64" height="64" />
+                                        <img src="{{ asset('frontend/theme1/images/instagram/06.jpg') }}" alt="instagram 6" width="64" height="64" />
                                     </div>
                                     <div class="col-3">
-                                        <img src="{{ asset('frontend/images/instagram/07.jpg') }}" alt="instagram 7" width="64" height="64" />
+                                        <img src="{{ asset('frontend/theme1/images/instagram/07.jpg') }}" alt="instagram 7" width="64" height="64" />
                                     </div>
                                     <div class="col-3">
-                                        <img src="{{ asset('frontend/images/instagram/08.jpg') }}" alt="instagram 8" width="64" height="64" />
+                                        <img src="{{ asset('frontend/theme1/images/instagram/08.jpg') }}" alt="instagram 8" width="64" height="64" />
                                     </div>
                                 </figure>
                             </div>
@@ -1694,7 +1694,7 @@
                 <div class="footer-bottom">
                     <div class="footer-left">
                         <figure class="payment">
-                            <img src="{{ asset('frontend/images/payment.png') }}" alt="payment" width="159" height="29" />
+                            <img src="{{ asset('frontend/theme1/images/payment.png') }}" alt="payment" width="159" height="29" />
                         </figure>
                     </div>
                     <div class="footer-center">
@@ -1753,7 +1753,7 @@
                         </div>
                         <figure class="product-media">
                             <a href="#">
-                                <img src="{{ asset('frontend/images/cart/product-1.jpg') }}" alt="product" width="90" height="90" />
+                                <img src="{{ asset('frontend/theme1/images/cart/product-1.jpg') }}" alt="product" width="90" height="90" />
                             </a>
                             <button class="btn btn-link btn-close">
                                 <i class="fas fa-times"></i>
@@ -1771,7 +1771,7 @@
                         </div>
                         <figure class="product-media">
                             <a href="#">
-                                <img src="{{ asset('frontend/images/cart/product-2.jpg') }}" alt="product" width="90" height="90" />
+                                <img src="{{ asset('frontend/theme1/images/cart/product-2.jpg') }}" alt="product" width="90" height="90" />
                             </a>
                             <button class="btn btn-link btn-close">
                                 <i class="fas fa-times"></i>
