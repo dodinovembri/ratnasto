@@ -10,12 +10,11 @@
         <main class="main">
             <div class="page-content">
 
-                <section class="grey-section pt-10 pb-10 appear-animate">
-                    <div class="container pt-3">
-                        <!-- <h2 class="title">Browse Our Categories</h2> -->
+                <section class="pb-10 appear-animate">
+                    <div class="container">
                         <div class="row">
                             <div class="col-md-3 col-12 mb-4"></div>
-                            <div class="col-md-3 col-12 mb-4">
+                            <div class="col-md-3 col-6 mb-4 pt-3">
                                 <div
                                     class="category category-default category-default-1 category-absolute overlay-zoom">
                                     <a href="#">
@@ -29,7 +28,7 @@
                                     </div>
                                 </div>
                             </div>                            
-                            <div class="col-md-3 col-12 mb-4">
+                            <div class="col-md-3 col-6 mb-4 pt-3">
                                 <div
                                     class="category category-default category-default-1 category-absolute overlay-zoom">
                                     <a href="#">
@@ -43,7 +42,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-12 mb-4"></div>
+                            <div class="col-md-3 col-12 mb-4 pt-3"></div>
                         </div>
                     </div>
                 </section>
