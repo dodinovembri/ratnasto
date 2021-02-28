@@ -38,7 +38,8 @@
                                         </figure>
                                     </a>
                                     <div class="category-content">
-                                        <h4 class="category-name"><a href="{{ url('technology') }}">Technology</a></h4>
+                                        <h4 class="category-name"><a href="#">Technology</a></h4>
+                                        <!-- <h4 class="category-name"><a href="{{ url('technology') }}">Technology</a></h4> -->
                                     </div>
                                 </div>
                             </div>
