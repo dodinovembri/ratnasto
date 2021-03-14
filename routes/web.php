@@ -25,6 +25,12 @@ Auth::routes();
 Route::get('/', [HomeController::class, 'index']);
 Route::get('/home', [DashboardController::class, 'index']);
 
+Route::prefix('admin')->group(function () {
+    Route::get('/users', function () {
+        // Matches The "/admin/users" URL
+    });
+});
+
 Route::name('frontend.')->group(function () {
 	Route::name('home.')->group(function () {
 		Route::get('frontend/home/index', [HomeController::class, 'index']);
