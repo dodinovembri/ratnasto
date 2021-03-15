@@ -2,14 +2,6 @@
 
 use Illuminate\Support\Facades\Route;
 
-// frontend
-use App\Http\Controllers\Frontend\HomeController;
-use App\Http\Controllers\Frontend\TechnologyController;
-
-// backend
-use App\Http\Controllers\Backend\DashboardController;
-use App\Http\Controllers\Backend\IndexPublicController;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -22,59 +14,43 @@ use App\Http\Controllers\Backend\IndexPublicController;
 */
 
 Auth::routes();
-Route::get('/', [HomeController::class, 'index']);
-Route::get('/home', [DashboardController::class, 'index']);
 
-Route::prefix('admin')->group(function () {
+/**
+| ===============
+| frontend routes
+| ===============
+*/
+Route::get('/', [App\Http\Controllers\Frontend\HomeController::class, 'index']);
+Route::prefix('fe')->group(function () {
     Route::get('/users', function () {
         // Matches The "/admin/users" URL
     });
 });
 
-Route::name('frontend.')->group(function () {
-	Route::name('home.')->group(function () {
-		Route::get('frontend/home/index', [HomeController::class, 'index']);
-		Route::get('frontend/home/create', [HomeController::class, 'create']);
-		Route::post('frontend/home/store', [HomeController::class, 'store']);
-		Route::get('frontend/home/show/{id}', [HomeController::class, 'show']);
-		Route::get('frontend/home/edit/{id}', [HomeController::class, 'edit']);
-		Route::post('frontend/home/update/{id}', [HomeController::class, 'update']);
-		Route::get('frontend/home/destroy/{id}', [HomeController::class, 'destroy']);
-	});		
-});
 
-Route::get('technology', [TechnologyController::class, 'index']);
-Route::name('technology.')->group(function () {
-	Route::name('home.')->group(function () {
-		Route::get('frontend/home/create', [HomeController::class, 'create']);
-		Route::post('frontend/home/store', [HomeController::class, 'store']);
-		Route::get('frontend/home/show/{id}', [HomeController::class, 'show']);
-		Route::get('frontend/home/edit/{id}', [HomeController::class, 'edit']);
-		Route::post('frontend/home/update/{id}', [HomeController::class, 'update']);
-		Route::get('frontend/home/destroy/{id}', [HomeController::class, 'destroy']);
-	});		
+/**
+| ==============
+| backend routes
+| ==============
+*/
+Route::prefix('admin')->group(function () {
+	Route::get('', [App\Http\Controllers\Backend\HomeController::class, 'index']);
 });
-
-Route::get('wedding', [WeddingController::class, 'index']);
-Route::name('technology.')->group(function () {
-	Route::name('home.')->group(function () {
-		Route::get('frontend/home/create', [HomeController::class, 'create']);
-		Route::post('frontend/home/store', [HomeController::class, 'store']);
-		Route::get('frontend/home/show/{id}', [HomeController::class, 'show']);
-		Route::get('frontend/home/edit/{id}', [HomeController::class, 'edit']);
-		Route::post('frontend/home/update/{id}', [HomeController::class, 'update']);
-		Route::get('frontend/home/destroy/{id}', [HomeController::class, 'destroy']);
-	});		
+Route::prefix('product_category')->group(function () {
+	Route::get('', [App\Http\Controllers\Backend\ProductCategoryController::class, 'index']);
+	Route::get('create', [App\Http\Controllers\Backend\ProductCategoryController::class, 'create']);
+	Route::post('store', [App\Http\Controllers\Backend\ProductCategoryController::class, 'store']);
+	Route::get('show/{id}', [App\Http\Controllers\Backend\ProductCategoryController::class, 'show']);
+	Route::get('edit/{id}', [App\Http\Controllers\Backend\ProductCategoryController::class, 'edit']);
+	Route::post('update{id}', [App\Http\Controllers\Backend\ProductCategoryController::class, 'update']);
+	Route::get('destroy/{id}', [App\Http\Controllers\Backend\ProductCategoryController::class, 'destroy']);
 });
-
-Route::get('home-index', [IndexPublicController::class, 'index']);
-Route::name('technology.')->group(function () {
-	Route::name('home.')->group(function () {
-		Route::get('frontend/home/create', [HomeController::class, 'create']);
-		Route::post('frontend/home/store', [HomeController::class, 'store']);
-		Route::get('frontend/home/show/{id}', [HomeController::class, 'show']);
-		Route::get('frontend/home/edit/{id}', [HomeController::class, 'edit']);
-		Route::post('frontend/home/update/{id}', [HomeController::class, 'update']);
-		Route::get('frontend/home/destroy/{id}', [HomeController::class, 'destroy']);
-	});		
+Route::prefix('product')->group(function () {
+	Route::get('', [App\Http\Controllers\Backend\ProductController::class, 'index']);
+	Route::get('create', [App\Http\Controllers\Backend\ProductController::class, 'create']);
+	Route::post('store', [App\Http\Controllers\Backend\ProductController::class, 'store']);
+	Route::get('show/{id}', [App\Http\Controllers\Backend\ProductController::class, 'show']);
+	Route::get('edit/{id}', [App\Http\Controllers\Backend\ProductController::class, 'edit']);
+	Route::post('update{id}', [App\Http\Controllers\Backend\ProductController::class, 'update']);
+	Route::get('destroy/{id}', [App\Http\Controllers\Backend\ProductController::class, 'destroy']);
 });
